@@ -1,0 +1,4804 @@
+{
+ "pois": [
+  {
+   "id": 1000000,
+   "name": "Village 0",
+   "type": 5,
+   "position": {
+    "x": 537.4,
+    "y": 0,
+    "z": -126.2
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000001,
+   "name": "Shop 1",
+   "type": 1,
+   "position": {
+    "x": 385.5,
+    "y": 0,
+    "z": -487.0
+   },
+   "iconKey": "icon_1",
+   "priority": 4
+  },
+  {
+   "id": 1000002,
+   "name": "Fuel 2",
+   "type": 0,
+   "position": {
+    "x": 491.6,
+    "y": 0,
+    "z": -342.4
+   },
+   "iconKey": "icon_0",
+   "priority": 0
+  },
+  {
+   "id": 1000003,
+   "name": "Outpost 3",
+   "type": 6,
+   "position": {
+    "x": -98.2,
+    "y": 0,
+    "z": -311.2
+   },
+   "iconKey": "icon_6",
+   "priority": 4
+  },
+  {
+   "id": 1000004,
+   "name": "Outpost 4",
+   "type": 6,
+   "position": {
+    "x": -529.1,
+    "y": 0,
+    "z": 78.5
+   },
+   "iconKey": "icon_6",
+   "priority": 1
+  },
+  {
+   "id": 1000005,
+   "name": "Fuel 5",
+   "type": 0,
+   "position": {
+    "x": 92.5,
+    "y": 0,
+    "z": -124.0
+   },
+   "iconKey": "icon_0",
+   "priority": 1
+  },
+  {
+   "id": 1000006,
+   "name": "Fuel 6",
+   "type": 0,
+   "position": {
+    "x": 68.0,
+    "y": 0,
+    "z": -440.2
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000007,
+   "name": "Camp 7",
+   "type": 2,
+   "position": {
+    "x": 48.8,
+    "y": 0,
+    "z": 85.1
+   },
+   "iconKey": "icon_2",
+   "priority": 4
+  },
+  {
+   "id": 1000008,
+   "name": "Camp 8",
+   "type": 2,
+   "position": {
+    "x": -476.3,
+    "y": 0,
+    "z": 85.4
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000009,
+   "name": "Village 9",
+   "type": 5,
+   "position": {
+    "x": -483.1,
+    "y": 0,
+    "z": 254.5
+   },
+   "iconKey": "icon_5",
+   "priority": 4
+  },
+  {
+   "id": 1000010,
+   "name": "Fuel 10",
+   "type": 0,
+   "position": {
+    "x": 142.8,
+    "y": 0,
+    "z": -4.3
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000011,
+   "name": "Outpost 11",
+   "type": 6,
+   "position": {
+    "x": 332.7,
+    "y": 0,
+    "z": -41.3
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000012,
+   "name": "Village 12",
+   "type": 5,
+   "position": {
+    "x": -240.3,
+    "y": 0,
+    "z": 353.3
+   },
+   "iconKey": "icon_5",
+   "priority": 5
+  },
+  {
+   "id": 1000013,
+   "name": "Tower 13",
+   "type": 3,
+   "position": {
+    "x": -501.8,
+    "y": 0,
+    "z": -239.7
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000014,
+   "name": "Village 14",
+   "type": 5,
+   "position": {
+    "x": 275.3,
+    "y": 0,
+    "z": -254.5
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000015,
+   "name": "Shop 15",
+   "type": 1,
+   "position": {
+    "x": 14.3,
+    "y": 0,
+    "z": -402.0
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000016,
+   "name": "Camp 16",
+   "type": 2,
+   "position": {
+    "x": 519.9,
+    "y": 0,
+    "z": -94.0
+   },
+   "iconKey": "icon_2",
+   "priority": 5
+  },
+  {
+   "id": 1000017,
+   "name": "Shop 17",
+   "type": 1,
+   "position": {
+    "x": 317.5,
+    "y": 0,
+    "z": 87.6
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000018,
+   "name": "Village 18",
+   "type": 5,
+   "position": {
+    "x": 234.4,
+    "y": 0,
+    "z": 113.2
+   },
+   "iconKey": "icon_5",
+   "priority": 4
+  },
+  {
+   "id": 1000019,
+   "name": "Ruins 19",
+   "type": 7,
+   "position": {
+    "x": -517.5,
+    "y": 0,
+    "z": -487.7
+   },
+   "iconKey": "icon_7",
+   "priority": 2
+  },
+  {
+   "id": 1000020,
+   "name": "Ruins 20",
+   "type": 7,
+   "position": {
+    "x": 236.5,
+    "y": 0,
+    "z": -522.0
+   },
+   "iconKey": "icon_7",
+   "priority": 5
+  },
+  {
+   "id": 1000021,
+   "name": "Bridge 21",
+   "type": 4,
+   "position": {
+    "x": 176.6,
+    "y": 0,
+    "z": 591.7
+   },
+   "iconKey": "icon_4",
+   "priority": 3
+  },
+  {
+   "id": 1000022,
+   "name": "Bridge 22",
+   "type": 4,
+   "position": {
+    "x": 260.0,
+    "y": 0,
+    "z": 464.4
+   },
+   "iconKey": "icon_4",
+   "priority": 2
+  },
+  {
+   "id": 1000023,
+   "name": "Fuel 23",
+   "type": 0,
+   "position": {
+    "x": 528.8,
+    "y": 0,
+    "z": -173.4
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000024,
+   "name": "Shop 24",
+   "type": 1,
+   "position": {
+    "x": -7.6,
+    "y": 0,
+    "z": -338.2
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000025,
+   "name": "Camp 25",
+   "type": 2,
+   "position": {
+    "x": 286.0,
+    "y": 0,
+    "z": -122.5
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000026,
+   "name": "Shop 26",
+   "type": 1,
+   "position": {
+    "x": -400.4,
+    "y": 0,
+    "z": -118.0
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000027,
+   "name": "Camp 27",
+   "type": 2,
+   "position": {
+    "x": 383.1,
+    "y": 0,
+    "z": 436.8
+   },
+   "iconKey": "icon_2",
+   "priority": 2
+  },
+  {
+   "id": 1000028,
+   "name": "Outpost 28",
+   "type": 6,
+   "position": {
+    "x": 583.8,
+    "y": 0,
+    "z": 219.3
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000029,
+   "name": "Tower 29",
+   "type": 3,
+   "position": {
+    "x": -418.9,
+    "y": 0,
+    "z": -388.5
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000030,
+   "name": "Tower 30",
+   "type": 3,
+   "position": {
+    "x": -585.5,
+    "y": 0,
+    "z": 397.3
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000031,
+   "name": "Bridge 31",
+   "type": 4,
+   "position": {
+    "x": -261.7,
+    "y": 0,
+    "z": -425.2
+   },
+   "iconKey": "icon_4",
+   "priority": 4
+  },
+  {
+   "id": 1000032,
+   "name": "Village 32",
+   "type": 5,
+   "position": {
+    "x": 131.8,
+    "y": 0,
+    "z": -217.7
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000033,
+   "name": "Fuel 33",
+   "type": 0,
+   "position": {
+    "x": -52.0,
+    "y": 0,
+    "z": 445.2
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000034,
+   "name": "Outpost 34",
+   "type": 6,
+   "position": {
+    "x": -122.3,
+    "y": 0,
+    "z": -127.1
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000035,
+   "name": "Outpost 35",
+   "type": 6,
+   "position": {
+    "x": -525.3,
+    "y": 0,
+    "z": -519.2
+   },
+   "iconKey": "icon_6",
+   "priority": 1
+  },
+  {
+   "id": 1000036,
+   "name": "Ruins 36",
+   "type": 7,
+   "position": {
+    "x": -405.2,
+    "y": 0,
+    "z": -191.9
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000037,
+   "name": "Shop 37",
+   "type": 1,
+   "position": {
+    "x": -599.7,
+    "y": 0,
+    "z": -418.5
+   },
+   "iconKey": "icon_1",
+   "priority": 0
+  },
+  {
+   "id": 1000038,
+   "name": "Village 38",
+   "type": 5,
+   "position": {
+    "x": 136.5,
+    "y": 0,
+    "z": -515.6
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000039,
+   "name": "Outpost 39",
+   "type": 6,
+   "position": {
+    "x": -421.7,
+    "y": 0,
+    "z": -297.3
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000040,
+   "name": "Village 40",
+   "type": 5,
+   "position": {
+    "x": -31.0,
+    "y": 0,
+    "z": -461.6
+   },
+   "iconKey": "icon_5",
+   "priority": 3
+  },
+  {
+   "id": 1000041,
+   "name": "Ruins 41",
+   "type": 7,
+   "position": {
+    "x": -23.5,
+    "y": 0,
+    "z": -225.8
+   },
+   "iconKey": "icon_7",
+   "priority": 1
+  },
+  {
+   "id": 1000042,
+   "name": "Shop 42",
+   "type": 1,
+   "position": {
+    "x": 299.6,
+    "y": 0,
+    "z": 288.4
+   },
+   "iconKey": "icon_1",
+   "priority": 3
+  },
+  {
+   "id": 1000043,
+   "name": "Camp 43",
+   "type": 2,
+   "position": {
+    "x": 19.6,
+    "y": 0,
+    "z": -353.7
+   },
+   "iconKey": "icon_2",
+   "priority": 4
+  },
+  {
+   "id": 1000044,
+   "name": "Village 44",
+   "type": 5,
+   "position": {
+    "x": -424.1,
+    "y": 0,
+    "z": 51.8
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000045,
+   "name": "Bridge 45",
+   "type": 4,
+   "position": {
+    "x": 574.2,
+    "y": 0,
+    "z": 436.0
+   },
+   "iconKey": "icon_4",
+   "priority": 5
+  },
+  {
+   "id": 1000046,
+   "name": "Bridge 46",
+   "type": 4,
+   "position": {
+    "x": 22.1,
+    "y": 0,
+    "z": 489.9
+   },
+   "iconKey": "icon_4",
+   "priority": 2
+  },
+  {
+   "id": 1000047,
+   "name": "Tower 47",
+   "type": 3,
+   "position": {
+    "x": 39.1,
+    "y": 0,
+    "z": 334.9
+   },
+   "iconKey": "icon_3",
+   "priority": 2
+  },
+  {
+   "id": 1000048,
+   "name": "Tower 48",
+   "type": 3,
+   "position": {
+    "x": 135.9,
+    "y": 0,
+    "z": 346.1
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000049,
+   "name": "Tower 49",
+   "type": 3,
+   "position": {
+    "x": 382.0,
+    "y": 0,
+    "z": 287.8
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000050,
+   "name": "Tower 50",
+   "type": 3,
+   "position": {
+    "x": 21.2,
+    "y": 0,
+    "z": -173.3
+   },
+   "iconKey": "icon_3",
+   "priority": 0
+  },
+  {
+   "id": 1000051,
+   "name": "Fuel 51",
+   "type": 0,
+   "position": {
+    "x": 348.1,
+    "y": 0,
+    "z": -33.3
+   },
+   "iconKey": "icon_0",
+   "priority": 1
+  },
+  {
+   "id": 1000052,
+   "name": "Village 52",
+   "type": 5,
+   "position": {
+    "x": -63.3,
+    "y": 0,
+    "z": 524.4
+   },
+   "iconKey": "icon_5",
+   "priority": 2
+  },
+  {
+   "id": 1000053,
+   "name": "Village 53",
+   "type": 5,
+   "position": {
+    "x": -503.4,
+    "y": 0,
+    "z": -477.4
+   },
+   "iconKey": "icon_5",
+   "priority": 3
+  },
+  {
+   "id": 1000054,
+   "name": "Tower 54",
+   "type": 3,
+   "position": {
+    "x": -194.7,
+    "y": 0,
+    "z": -20.8
+   },
+   "iconKey": "icon_3",
+   "priority": 4
+  },
+  {
+   "id": 1000055,
+   "name": "Fuel 55",
+   "type": 0,
+   "position": {
+    "x": -24.6,
+    "y": 0,
+    "z": 183.6
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000056,
+   "name": "Shop 56",
+   "type": 1,
+   "position": {
+    "x": 401.6,
+    "y": 0,
+    "z": -456.1
+   },
+   "iconKey": "icon_1",
+   "priority": 3
+  },
+  {
+   "id": 1000057,
+   "name": "Tower 57",
+   "type": 3,
+   "position": {
+    "x": -26.4,
+    "y": 0,
+    "z": -385.8
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000058,
+   "name": "Village 58",
+   "type": 5,
+   "position": {
+    "x": -495.9,
+    "y": 0,
+    "z": 535.4
+   },
+   "iconKey": "icon_5",
+   "priority": 5
+  },
+  {
+   "id": 1000059,
+   "name": "Outpost 59",
+   "type": 6,
+   "position": {
+    "x": -44.2,
+    "y": 0,
+    "z": 292.0
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000060,
+   "name": "Camp 60",
+   "type": 2,
+   "position": {
+    "x": -396.0,
+    "y": 0,
+    "z": -447.6
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000061,
+   "name": "Ruins 61",
+   "type": 7,
+   "position": {
+    "x": 367.8,
+    "y": 0,
+    "z": -424.6
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000062,
+   "name": "Ruins 62",
+   "type": 7,
+   "position": {
+    "x": 188.7,
+    "y": 0,
+    "z": -179.5
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000063,
+   "name": "Camp 63",
+   "type": 2,
+   "position": {
+    "x": -574.3,
+    "y": 0,
+    "z": 359.2
+   },
+   "iconKey": "icon_2",
+   "priority": 5
+  },
+  {
+   "id": 1000064,
+   "name": "Shop 64",
+   "type": 1,
+   "position": {
+    "x": 31.9,
+    "y": 0,
+    "z": 520.3
+   },
+   "iconKey": "icon_1",
+   "priority": 3
+  },
+  {
+   "id": 1000065,
+   "name": "Tower 65",
+   "type": 3,
+   "position": {
+    "x": 391.4,
+    "y": 0,
+    "z": -346.7
+   },
+   "iconKey": "icon_3",
+   "priority": 2
+  },
+  {
+   "id": 1000066,
+   "name": "Tower 66",
+   "type": 3,
+   "position": {
+    "x": -248.4,
+    "y": 0,
+    "z": -311.4
+   },
+   "iconKey": "icon_3",
+   "priority": 4
+  },
+  {
+   "id": 1000067,
+   "name": "Village 67",
+   "type": 5,
+   "position": {
+    "x": -288.8,
+    "y": 0,
+    "z": -97.2
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000068,
+   "name": "Fuel 68",
+   "type": 0,
+   "position": {
+    "x": 492.0,
+    "y": 0,
+    "z": -175.5
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000069,
+   "name": "Outpost 69",
+   "type": 6,
+   "position": {
+    "x": 392.6,
+    "y": 0,
+    "z": 453.8
+   },
+   "iconKey": "icon_6",
+   "priority": 1
+  },
+  {
+   "id": 1000070,
+   "name": "Camp 70",
+   "type": 2,
+   "position": {
+    "x": 28.2,
+    "y": 0,
+    "z": -577.6
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000071,
+   "name": "Camp 71",
+   "type": 2,
+   "position": {
+    "x": 130.3,
+    "y": 0,
+    "z": 331.2
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000072,
+   "name": "Camp 72",
+   "type": 2,
+   "position": {
+    "x": -430.1,
+    "y": 0,
+    "z": 142.9
+   },
+   "iconKey": "icon_2",
+   "priority": 0
+  },
+  {
+   "id": 1000073,
+   "name": "Fuel 73",
+   "type": 0,
+   "position": {
+    "x": -208.8,
+    "y": 0,
+    "z": 22.0
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000074,
+   "name": "Ruins 74",
+   "type": 7,
+   "position": {
+    "x": 341.1,
+    "y": 0,
+    "z": -472.7
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000075,
+   "name": "Fuel 75",
+   "type": 0,
+   "position": {
+    "x": -301.8,
+    "y": 0,
+    "z": -267.7
+   },
+   "iconKey": "icon_0",
+   "priority": 0
+  },
+  {
+   "id": 1000076,
+   "name": "Ruins 76",
+   "type": 7,
+   "position": {
+    "x": 74.1,
+    "y": 0,
+    "z": 312.0
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000077,
+   "name": "Ruins 77",
+   "type": 7,
+   "position": {
+    "x": -209.3,
+    "y": 0,
+    "z": 568.0
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000078,
+   "name": "Tower 78",
+   "type": 3,
+   "position": {
+    "x": 231.3,
+    "y": 0,
+    "z": -57.2
+   },
+   "iconKey": "icon_3",
+   "priority": 4
+  },
+  {
+   "id": 1000079,
+   "name": "Ruins 79",
+   "type": 7,
+   "position": {
+    "x": 9.3,
+    "y": 0,
+    "z": -302.8
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000080,
+   "name": "Bridge 80",
+   "type": 4,
+   "position": {
+    "x": 507.3,
+    "y": 0,
+    "z": 471.3
+   },
+   "iconKey": "icon_4",
+   "priority": 1
+  },
+  {
+   "id": 1000081,
+   "name": "Ruins 81",
+   "type": 7,
+   "position": {
+    "x": -435.4,
+    "y": 0,
+    "z": -454.1
+   },
+   "iconKey": "icon_7",
+   "priority": 3
+  },
+  {
+   "id": 1000082,
+   "name": "Village 82",
+   "type": 5,
+   "position": {
+    "x": -512.9,
+    "y": 0,
+    "z": -311.2
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000083,
+   "name": "Tower 83",
+   "type": 3,
+   "position": {
+    "x": 203.4,
+    "y": 0,
+    "z": 340.7
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000084,
+   "name": "Village 84",
+   "type": 5,
+   "position": {
+    "x": -428.4,
+    "y": 0,
+    "z": 459.4
+   },
+   "iconKey": "icon_5",
+   "priority": 3
+  },
+  {
+   "id": 1000085,
+   "name": "Tower 85",
+   "type": 3,
+   "position": {
+    "x": 296.0,
+    "y": 0,
+    "z": -487.0
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000086,
+   "name": "Camp 86",
+   "type": 2,
+   "position": {
+    "x": 587.8,
+    "y": 0,
+    "z": 398.9
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000087,
+   "name": "Outpost 87",
+   "type": 6,
+   "position": {
+    "x": 592.9,
+    "y": 0,
+    "z": -115.4
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000088,
+   "name": "Tower 88",
+   "type": 3,
+   "position": {
+    "x": -172.1,
+    "y": 0,
+    "z": -489.4
+   },
+   "iconKey": "icon_3",
+   "priority": 2
+  },
+  {
+   "id": 1000089,
+   "name": "Fuel 89",
+   "type": 0,
+   "position": {
+    "x": -194.4,
+    "y": 0,
+    "z": -49.6
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000090,
+   "name": "Fuel 90",
+   "type": 0,
+   "position": {
+    "x": -138.8,
+    "y": 0,
+    "z": 20.9
+   },
+   "iconKey": "icon_0",
+   "priority": 2
+  },
+  {
+   "id": 1000091,
+   "name": "Shop 91",
+   "type": 1,
+   "position": {
+    "x": -464.6,
+    "y": 0,
+    "z": 502.3
+   },
+   "iconKey": "icon_1",
+   "priority": 1
+  },
+  {
+   "id": 1000092,
+   "name": "Shop 92",
+   "type": 1,
+   "position": {
+    "x": -499.1,
+    "y": 0,
+    "z": -273.7
+   },
+   "iconKey": "icon_1",
+   "priority": 1
+  },
+  {
+   "id": 1000093,
+   "name": "Bridge 93",
+   "type": 4,
+   "position": {
+    "x": 306.9,
+    "y": 0,
+    "z": 383.7
+   },
+   "iconKey": "icon_4",
+   "priority": 5
+  },
+  {
+   "id": 1000094,
+   "name": "Bridge 94",
+   "type": 4,
+   "position": {
+    "x": -112.9,
+    "y": 0,
+    "z": 43.9
+   },
+   "iconKey": "icon_4",
+   "priority": 4
+  },
+  {
+   "id": 1000095,
+   "name": "Ruins 95",
+   "type": 7,
+   "position": {
+    "x": 240.5,
+    "y": 0,
+    "z": -492.6
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000096,
+   "name": "Camp 96",
+   "type": 2,
+   "position": {
+    "x": -89.6,
+    "y": 0,
+    "z": -513.1
+   },
+   "iconKey": "icon_2",
+   "priority": 0
+  },
+  {
+   "id": 1000097,
+   "name": "Shop 97",
+   "type": 1,
+   "position": {
+    "x": 362.0,
+    "y": 0,
+    "z": -499.5
+   },
+   "iconKey": "icon_1",
+   "priority": 1
+  },
+  {
+   "id": 1000098,
+   "name": "Shop 98",
+   "type": 1,
+   "position": {
+    "x": -282.7,
+    "y": 0,
+    "z": -454.0
+   },
+   "iconKey": "icon_1",
+   "priority": 0
+  },
+  {
+   "id": 1000099,
+   "name": "Village 99",
+   "type": 5,
+   "position": {
+    "x": 593.2,
+    "y": 0,
+    "z": -98.7
+   },
+   "iconKey": "icon_5",
+   "priority": 2
+  },
+  {
+   "id": 1000100,
+   "name": "Camp 100",
+   "type": 2,
+   "position": {
+    "x": -548.2,
+    "y": 0,
+    "z": 251.4
+   },
+   "iconKey": "icon_2",
+   "priority": 0
+  },
+  {
+   "id": 1000101,
+   "name": "Camp 101",
+   "type": 2,
+   "position": {
+    "x": -285.7,
+    "y": 0,
+    "z": -382.6
+   },
+   "iconKey": "icon_2",
+   "priority": 2
+  },
+  {
+   "id": 1000102,
+   "name": "Bridge 102",
+   "type": 4,
+   "position": {
+    "x": 37.3,
+    "y": 0,
+    "z": -353.0
+   },
+   "iconKey": "icon_4",
+   "priority": 3
+  },
+  {
+   "id": 1000103,
+   "name": "Camp 103",
+   "type": 2,
+   "position": {
+    "x": -275.4,
+    "y": 0,
+    "z": 364.4
+   },
+   "iconKey": "icon_2",
+   "priority": 2
+  },
+  {
+   "id": 1000104,
+   "name": "Fuel 104",
+   "type": 0,
+   "position": {
+    "x": -581.6,
+    "y": 0,
+    "z": 279.7
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000105,
+   "name": "Tower 105",
+   "type": 3,
+   "position": {
+    "x": 17.1,
+    "y": 0,
+    "z": -305.2
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000106,
+   "name": "Shop 106",
+   "type": 1,
+   "position": {
+    "x": 190.0,
+    "y": 0,
+    "z": 180.1
+   },
+   "iconKey": "icon_1",
+   "priority": 5
+  },
+  {
+   "id": 1000107,
+   "name": "Ruins 107",
+   "type": 7,
+   "position": {
+    "x": 55.1,
+    "y": 0,
+    "z": 466.5
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000108,
+   "name": "Bridge 108",
+   "type": 4,
+   "position": {
+    "x": 225.3,
+    "y": 0,
+    "z": 578.9
+   },
+   "iconKey": "icon_4",
+   "priority": 2
+  },
+  {
+   "id": 1000109,
+   "name": "Tower 109",
+   "type": 3,
+   "position": {
+    "x": 398.7,
+    "y": 0,
+    "z": 248.1
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000110,
+   "name": "Camp 110",
+   "type": 2,
+   "position": {
+    "x": -114.4,
+    "y": 0,
+    "z": -182.9
+   },
+   "iconKey": "icon_2",
+   "priority": 0
+  },
+  {
+   "id": 1000111,
+   "name": "Camp 111",
+   "type": 2,
+   "position": {
+    "x": -582.9,
+    "y": 0,
+    "z": 150.5
+   },
+   "iconKey": "icon_2",
+   "priority": 2
+  },
+  {
+   "id": 1000112,
+   "name": "Outpost 112",
+   "type": 6,
+   "position": {
+    "x": -404.1,
+    "y": 0,
+    "z": -498.6
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000113,
+   "name": "Bridge 113",
+   "type": 4,
+   "position": {
+    "x": 118.5,
+    "y": 0,
+    "z": 231.2
+   },
+   "iconKey": "icon_4",
+   "priority": 0
+  },
+  {
+   "id": 1000114,
+   "name": "Ruins 114",
+   "type": 7,
+   "position": {
+    "x": -377.6,
+    "y": 0,
+    "z": -277.2
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000115,
+   "name": "Bridge 115",
+   "type": 4,
+   "position": {
+    "x": -163.0,
+    "y": 0,
+    "z": -205.3
+   },
+   "iconKey": "icon_4",
+   "priority": 4
+  },
+  {
+   "id": 1000116,
+   "name": "Village 116",
+   "type": 5,
+   "position": {
+    "x": -306.7,
+    "y": 0,
+    "z": 558.8
+   },
+   "iconKey": "icon_5",
+   "priority": 2
+  },
+  {
+   "id": 1000117,
+   "name": "Tower 117",
+   "type": 3,
+   "position": {
+    "x": -172.1,
+    "y": 0,
+    "z": -598.7
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000118,
+   "name": "Shop 118",
+   "type": 1,
+   "position": {
+    "x": -30.4,
+    "y": 0,
+    "z": 3.3
+   },
+   "iconKey": "icon_1",
+   "priority": 1
+  },
+  {
+   "id": 1000119,
+   "name": "Tower 119",
+   "type": 3,
+   "position": {
+    "x": 5.7,
+    "y": 0,
+    "z": -594.1
+   },
+   "iconKey": "icon_3",
+   "priority": 2
+  },
+  {
+   "id": 1000120,
+   "name": "Shop 120",
+   "type": 1,
+   "position": {
+    "x": -5698.2,
+    "y": 0,
+    "z": 1388.8
+   },
+   "iconKey": "icon_1",
+   "priority": 3
+  },
+  {
+   "id": 1000121,
+   "name": "Fuel 121",
+   "type": 0,
+   "position": {
+    "x": -3205.7,
+    "y": 0,
+    "z": 2074.7
+   },
+   "iconKey": "icon_0",
+   "priority": 0
+  },
+  {
+   "id": 1000122,
+   "name": "Camp 122",
+   "type": 2,
+   "position": {
+    "x": 2520.7,
+    "y": 0,
+    "z": 3455.9
+   },
+   "iconKey": "icon_2",
+   "priority": 4
+  },
+  {
+   "id": 1000123,
+   "name": "Outpost 123",
+   "type": 6,
+   "position": {
+    "x": 4229.0,
+    "y": 0,
+    "z": 3530.8
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000124,
+   "name": "Camp 124",
+   "type": 2,
+   "position": {
+    "x": -3453.2,
+    "y": 0,
+    "z": 1899.3
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000125,
+   "name": "Fuel 125",
+   "type": 0,
+   "position": {
+    "x": 5197.7,
+    "y": 0,
+    "z": 3440.2
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000126,
+   "name": "Outpost 126",
+   "type": 6,
+   "position": {
+    "x": 3741.6,
+    "y": 0,
+    "z": 4995.5
+   },
+   "iconKey": "icon_6",
+   "priority": 1
+  },
+  {
+   "id": 1000127,
+   "name": "Fuel 127",
+   "type": 0,
+   "position": {
+    "x": 5222.5,
+    "y": 0,
+    "z": 1345.0
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000128,
+   "name": "Tower 128",
+   "type": 3,
+   "position": {
+    "x": -6638.5,
+    "y": 0,
+    "z": -7330.2
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000129,
+   "name": "Village 129",
+   "type": 5,
+   "position": {
+    "x": 7352.3,
+    "y": 0,
+    "z": -1974.1
+   },
+   "iconKey": "icon_5",
+   "priority": 3
+  },
+  {
+   "id": 1000130,
+   "name": "Fuel 130",
+   "type": 0,
+   "position": {
+    "x": 2044.3,
+    "y": 0,
+    "z": 2019.6
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000131,
+   "name": "Tower 131",
+   "type": 3,
+   "position": {
+    "x": -171.3,
+    "y": 0,
+    "z": -7947.0
+   },
+   "iconKey": "icon_3",
+   "priority": 0
+  },
+  {
+   "id": 1000132,
+   "name": "Shop 132",
+   "type": 1,
+   "position": {
+    "x": 2548.8,
+    "y": 0,
+    "z": -6943.2
+   },
+   "iconKey": "icon_1",
+   "priority": 5
+  },
+  {
+   "id": 1000133,
+   "name": "Ruins 133",
+   "type": 7,
+   "position": {
+    "x": -3964.9,
+    "y": 0,
+    "z": -6808.8
+   },
+   "iconKey": "icon_7",
+   "priority": 2
+  },
+  {
+   "id": 1000134,
+   "name": "Tower 134",
+   "type": 3,
+   "position": {
+    "x": 3669.4,
+    "y": 0,
+    "z": -4716.5
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000135,
+   "name": "Ruins 135",
+   "type": 7,
+   "position": {
+    "x": -96.8,
+    "y": 0,
+    "z": -1879.0
+   },
+   "iconKey": "icon_7",
+   "priority": 3
+  },
+  {
+   "id": 1000136,
+   "name": "Bridge 136",
+   "type": 4,
+   "position": {
+    "x": 4271.5,
+    "y": 0,
+    "z": 1871.6
+   },
+   "iconKey": "icon_4",
+   "priority": 5
+  },
+  {
+   "id": 1000137,
+   "name": "Tower 137",
+   "type": 3,
+   "position": {
+    "x": -6760.5,
+    "y": 0,
+    "z": -5641.2
+   },
+   "iconKey": "icon_3",
+   "priority": 2
+  },
+  {
+   "id": 1000138,
+   "name": "Bridge 138",
+   "type": 4,
+   "position": {
+    "x": 1938.4,
+    "y": 0,
+    "z": -5864.9
+   },
+   "iconKey": "icon_4",
+   "priority": 3
+  },
+  {
+   "id": 1000139,
+   "name": "Fuel 139",
+   "type": 0,
+   "position": {
+    "x": -227.2,
+    "y": 0,
+    "z": 7560.1
+   },
+   "iconKey": "icon_0",
+   "priority": 0
+  },
+  {
+   "id": 1000140,
+   "name": "Tower 140",
+   "type": 3,
+   "position": {
+    "x": 2811.3,
+    "y": 0,
+    "z": -3346.3
+   },
+   "iconKey": "icon_3",
+   "priority": 4
+  },
+  {
+   "id": 1000141,
+   "name": "Bridge 141",
+   "type": 4,
+   "position": {
+    "x": -565.4,
+    "y": 0,
+    "z": -538.6
+   },
+   "iconKey": "icon_4",
+   "priority": 0
+  },
+  {
+   "id": 1000142,
+   "name": "Tower 142",
+   "type": 3,
+   "position": {
+    "x": -3013.2,
+    "y": 0,
+    "z": -6626.3
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000143,
+   "name": "Fuel 143",
+   "type": 0,
+   "position": {
+    "x": -3366.6,
+    "y": 0,
+    "z": -6776.6
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000144,
+   "name": "Ruins 144",
+   "type": 7,
+   "position": {
+    "x": 7903.5,
+    "y": 0,
+    "z": -1810.4
+   },
+   "iconKey": "icon_7",
+   "priority": 1
+  },
+  {
+   "id": 1000145,
+   "name": "Shop 145",
+   "type": 1,
+   "position": {
+    "x": 1303.6,
+    "y": 0,
+    "z": -5732.1
+   },
+   "iconKey": "icon_1",
+   "priority": 4
+  },
+  {
+   "id": 1000146,
+   "name": "Bridge 146",
+   "type": 4,
+   "position": {
+    "x": 7243.8,
+    "y": 0,
+    "z": -5878.3
+   },
+   "iconKey": "icon_4",
+   "priority": 5
+  },
+  {
+   "id": 1000147,
+   "name": "Bridge 147",
+   "type": 4,
+   "position": {
+    "x": 6189.8,
+    "y": 0,
+    "z": 3253.4
+   },
+   "iconKey": "icon_4",
+   "priority": 1
+  },
+  {
+   "id": 1000148,
+   "name": "Ruins 148",
+   "type": 7,
+   "position": {
+    "x": 6363.3,
+    "y": 0,
+    "z": -221.7
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000149,
+   "name": "Camp 149",
+   "type": 2,
+   "position": {
+    "x": -7942.6,
+    "y": 0,
+    "z": -132.9
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000150,
+   "name": "Outpost 150",
+   "type": 6,
+   "position": {
+    "x": -3168.8,
+    "y": 0,
+    "z": -5748.7
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000151,
+   "name": "Outpost 151",
+   "type": 6,
+   "position": {
+    "x": -2942.8,
+    "y": 0,
+    "z": 5443.7
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000152,
+   "name": "Village 152",
+   "type": 5,
+   "position": {
+    "x": 4011.7,
+    "y": 0,
+    "z": 5425.8
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000153,
+   "name": "Tower 153",
+   "type": 3,
+   "position": {
+    "x": 3408.4,
+    "y": 0,
+    "z": 6425.1
+   },
+   "iconKey": "icon_3",
+   "priority": 2
+  },
+  {
+   "id": 1000154,
+   "name": "Bridge 154",
+   "type": 4,
+   "position": {
+    "x": -2044.4,
+    "y": 0,
+    "z": -1713.6
+   },
+   "iconKey": "icon_4",
+   "priority": 4
+  },
+  {
+   "id": 1000155,
+   "name": "Shop 155",
+   "type": 1,
+   "position": {
+    "x": -2228.7,
+    "y": 0,
+    "z": -1151.2
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000156,
+   "name": "Fuel 156",
+   "type": 0,
+   "position": {
+    "x": -3509.8,
+    "y": 0,
+    "z": -7174.1
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000157,
+   "name": "Bridge 157",
+   "type": 4,
+   "position": {
+    "x": 2159.4,
+    "y": 0,
+    "z": -5617.4
+   },
+   "iconKey": "icon_4",
+   "priority": 2
+  },
+  {
+   "id": 1000158,
+   "name": "Outpost 158",
+   "type": 6,
+   "position": {
+    "x": 175.4,
+    "y": 0,
+    "z": -4962.4
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000159,
+   "name": "Outpost 159",
+   "type": 6,
+   "position": {
+    "x": 6148.3,
+    "y": 0,
+    "z": 4991.4
+   },
+   "iconKey": "icon_6",
+   "priority": 5
+  },
+  {
+   "id": 1000160,
+   "name": "Outpost 160",
+   "type": 6,
+   "position": {
+    "x": 6614.8,
+    "y": 0,
+    "z": 7051.2
+   },
+   "iconKey": "icon_6",
+   "priority": 4
+  },
+  {
+   "id": 1000161,
+   "name": "Tower 161",
+   "type": 3,
+   "position": {
+    "x": 3513.2,
+    "y": 0,
+    "z": -7208.4
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000162,
+   "name": "Outpost 162",
+   "type": 6,
+   "position": {
+    "x": -786.2,
+    "y": 0,
+    "z": 4042.7
+   },
+   "iconKey": "icon_6",
+   "priority": 5
+  },
+  {
+   "id": 1000163,
+   "name": "Bridge 163",
+   "type": 4,
+   "position": {
+    "x": -230.8,
+    "y": 0,
+    "z": 6590.5
+   },
+   "iconKey": "icon_4",
+   "priority": 4
+  },
+  {
+   "id": 1000164,
+   "name": "Camp 164",
+   "type": 2,
+   "position": {
+    "x": -5267.8,
+    "y": 0,
+    "z": -1362.1
+   },
+   "iconKey": "icon_2",
+   "priority": 2
+  },
+  {
+   "id": 1000165,
+   "name": "Bridge 165",
+   "type": 4,
+   "position": {
+    "x": -3908.1,
+    "y": 0,
+    "z": 3819.9
+   },
+   "iconKey": "icon_4",
+   "priority": 5
+  },
+  {
+   "id": 1000166,
+   "name": "Bridge 166",
+   "type": 4,
+   "position": {
+    "x": -1500.7,
+    "y": 0,
+    "z": -4181.4
+   },
+   "iconKey": "icon_4",
+   "priority": 3
+  },
+  {
+   "id": 1000167,
+   "name": "Outpost 167",
+   "type": 6,
+   "position": {
+    "x": -6084.1,
+    "y": 0,
+    "z": 2291.3
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000168,
+   "name": "Tower 168",
+   "type": 3,
+   "position": {
+    "x": 9.7,
+    "y": 0,
+    "z": 4989.2
+   },
+   "iconKey": "icon_3",
+   "priority": 4
+  },
+  {
+   "id": 1000169,
+   "name": "Tower 169",
+   "type": 3,
+   "position": {
+    "x": -752.2,
+    "y": 0,
+    "z": -2674.7
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000170,
+   "name": "Outpost 170",
+   "type": 6,
+   "position": {
+    "x": -5766.5,
+    "y": 0,
+    "z": -4921.5
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000171,
+   "name": "Camp 171",
+   "type": 2,
+   "position": {
+    "x": -2528.7,
+    "y": 0,
+    "z": -6542.5
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000172,
+   "name": "Village 172",
+   "type": 5,
+   "position": {
+    "x": -3866.3,
+    "y": 0,
+    "z": 1113.9
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000173,
+   "name": "Outpost 173",
+   "type": 6,
+   "position": {
+    "x": -1874.6,
+    "y": 0,
+    "z": 3933.4
+   },
+   "iconKey": "icon_6",
+   "priority": 1
+  },
+  {
+   "id": 1000174,
+   "name": "Outpost 174",
+   "type": 6,
+   "position": {
+    "x": -3676.2,
+    "y": 0,
+    "z": 4033.8
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000175,
+   "name": "Bridge 175",
+   "type": 4,
+   "position": {
+    "x": 1188.5,
+    "y": 0,
+    "z": -2237.7
+   },
+   "iconKey": "icon_4",
+   "priority": 5
+  },
+  {
+   "id": 1000176,
+   "name": "Tower 176",
+   "type": 3,
+   "position": {
+    "x": -6518.4,
+    "y": 0,
+    "z": 6348.6
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000177,
+   "name": "Outpost 177",
+   "type": 6,
+   "position": {
+    "x": 2332.7,
+    "y": 0,
+    "z": -1090.6
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000178,
+   "name": "Fuel 178",
+   "type": 0,
+   "position": {
+    "x": -5964.0,
+    "y": 0,
+    "z": -1196.8
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000179,
+   "name": "Ruins 179",
+   "type": 7,
+   "position": {
+    "x": -7997.1,
+    "y": 0,
+    "z": -1735.7
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000180,
+   "name": "Ruins 180",
+   "type": 7,
+   "position": {
+    "x": 7555.9,
+    "y": 0,
+    "z": -4024.6
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000181,
+   "name": "Tower 181",
+   "type": 3,
+   "position": {
+    "x": -5529.9,
+    "y": 0,
+    "z": 357.8
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000182,
+   "name": "Shop 182",
+   "type": 1,
+   "position": {
+    "x": 7063.8,
+    "y": 0,
+    "z": 3547.8
+   },
+   "iconKey": "icon_1",
+   "priority": 5
+  },
+  {
+   "id": 1000183,
+   "name": "Ruins 183",
+   "type": 7,
+   "position": {
+    "x": -6639.9,
+    "y": 0,
+    "z": 4429.8
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000184,
+   "name": "Camp 184",
+   "type": 2,
+   "position": {
+    "x": -4278.8,
+    "y": 0,
+    "z": 6718.7
+   },
+   "iconKey": "icon_2",
+   "priority": 5
+  },
+  {
+   "id": 1000185,
+   "name": "Bridge 185",
+   "type": 4,
+   "position": {
+    "x": 7399.0,
+    "y": 0,
+    "z": 2023.6
+   },
+   "iconKey": "icon_4",
+   "priority": 4
+  },
+  {
+   "id": 1000186,
+   "name": "Outpost 186",
+   "type": 6,
+   "position": {
+    "x": 3177.3,
+    "y": 0,
+    "z": -6205.9
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000187,
+   "name": "Bridge 187",
+   "type": 4,
+   "position": {
+    "x": 391.0,
+    "y": 0,
+    "z": 1326.3
+   },
+   "iconKey": "icon_4",
+   "priority": 3
+  },
+  {
+   "id": 1000188,
+   "name": "Bridge 188",
+   "type": 4,
+   "position": {
+    "x": -4422.7,
+    "y": 0,
+    "z": 1617.0
+   },
+   "iconKey": "icon_4",
+   "priority": 0
+  },
+  {
+   "id": 1000189,
+   "name": "Bridge 189",
+   "type": 4,
+   "position": {
+    "x": 7942.0,
+    "y": 0,
+    "z": -3542.3
+   },
+   "iconKey": "icon_4",
+   "priority": 2
+  },
+  {
+   "id": 1000190,
+   "name": "Tower 190",
+   "type": 3,
+   "position": {
+    "x": -395.1,
+    "y": 0,
+    "z": -4243.7
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000191,
+   "name": "Fuel 191",
+   "type": 0,
+   "position": {
+    "x": 7369.8,
+    "y": 0,
+    "z": 3274.5
+   },
+   "iconKey": "icon_0",
+   "priority": 2
+  },
+  {
+   "id": 1000192,
+   "name": "Fuel 192",
+   "type": 0,
+   "position": {
+    "x": -7651.4,
+    "y": 0,
+    "z": -27.0
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000193,
+   "name": "Outpost 193",
+   "type": 6,
+   "position": {
+    "x": -6702.5,
+    "y": 0,
+    "z": -4354.6
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000194,
+   "name": "Village 194",
+   "type": 5,
+   "position": {
+    "x": -4371.4,
+    "y": 0,
+    "z": -7454.4
+   },
+   "iconKey": "icon_5",
+   "priority": 2
+  },
+  {
+   "id": 1000195,
+   "name": "Outpost 195",
+   "type": 6,
+   "position": {
+    "x": -2202.9,
+    "y": 0,
+    "z": -1658.3
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000196,
+   "name": "Bridge 196",
+   "type": 4,
+   "position": {
+    "x": 3826.1,
+    "y": 0,
+    "z": 78.1
+   },
+   "iconKey": "icon_4",
+   "priority": 1
+  },
+  {
+   "id": 1000197,
+   "name": "Ruins 197",
+   "type": 7,
+   "position": {
+    "x": 7517.7,
+    "y": 0,
+    "z": -3012.5
+   },
+   "iconKey": "icon_7",
+   "priority": 1
+  },
+  {
+   "id": 1000198,
+   "name": "Tower 198",
+   "type": 3,
+   "position": {
+    "x": -558.2,
+    "y": 0,
+    "z": -3759.6
+   },
+   "iconKey": "icon_3",
+   "priority": 2
+  },
+  {
+   "id": 1000199,
+   "name": "Shop 199",
+   "type": 1,
+   "position": {
+    "x": 7230.8,
+    "y": 0,
+    "z": -67.8
+   },
+   "iconKey": "icon_1",
+   "priority": 1
+  },
+  {
+   "id": 1000200,
+   "name": "Tower 200",
+   "type": 3,
+   "position": {
+    "x": -239.2,
+    "y": 0,
+    "z": 6566.3
+   },
+   "iconKey": "icon_3",
+   "priority": 0
+  },
+  {
+   "id": 1000201,
+   "name": "Camp 201",
+   "type": 2,
+   "position": {
+    "x": 6750.8,
+    "y": 0,
+    "z": -7130.3
+   },
+   "iconKey": "icon_2",
+   "priority": 0
+  },
+  {
+   "id": 1000202,
+   "name": "Camp 202",
+   "type": 2,
+   "position": {
+    "x": -1353.8,
+    "y": 0,
+    "z": 3357.7
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000203,
+   "name": "Outpost 203",
+   "type": 6,
+   "position": {
+    "x": -805.7,
+    "y": 0,
+    "z": 3392.6
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000204,
+   "name": "Shop 204",
+   "type": 1,
+   "position": {
+    "x": 7960.5,
+    "y": 0,
+    "z": 6905.5
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000205,
+   "name": "Tower 205",
+   "type": 3,
+   "position": {
+    "x": -5031.8,
+    "y": 0,
+    "z": 6974.1
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000206,
+   "name": "Ruins 206",
+   "type": 7,
+   "position": {
+    "x": -7489.7,
+    "y": 0,
+    "z": 2630.9
+   },
+   "iconKey": "icon_7",
+   "priority": 3
+  },
+  {
+   "id": 1000207,
+   "name": "Village 207",
+   "type": 5,
+   "position": {
+    "x": 7759.7,
+    "y": 0,
+    "z": -921.0
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000208,
+   "name": "Fuel 208",
+   "type": 0,
+   "position": {
+    "x": -6748.1,
+    "y": 0,
+    "z": -6707.8
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000209,
+   "name": "Shop 209",
+   "type": 1,
+   "position": {
+    "x": 978.1,
+    "y": 0,
+    "z": 4140.9
+   },
+   "iconKey": "icon_1",
+   "priority": 3
+  },
+  {
+   "id": 1000210,
+   "name": "Village 210",
+   "type": 5,
+   "position": {
+    "x": 4299.7,
+    "y": 0,
+    "z": -3060.8
+   },
+   "iconKey": "icon_5",
+   "priority": 3
+  },
+  {
+   "id": 1000211,
+   "name": "Shop 211",
+   "type": 1,
+   "position": {
+    "x": -7211.9,
+    "y": 0,
+    "z": -424.6
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000212,
+   "name": "Ruins 212",
+   "type": 7,
+   "position": {
+    "x": -4911.6,
+    "y": 0,
+    "z": -2172.0
+   },
+   "iconKey": "icon_7",
+   "priority": 3
+  },
+  {
+   "id": 1000213,
+   "name": "Fuel 213",
+   "type": 0,
+   "position": {
+    "x": 2106.6,
+    "y": 0,
+    "z": -4031.8
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000214,
+   "name": "Outpost 214",
+   "type": 6,
+   "position": {
+    "x": -7349.6,
+    "y": 0,
+    "z": -7442.3
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000215,
+   "name": "Fuel 215",
+   "type": 0,
+   "position": {
+    "x": -3887.7,
+    "y": 0,
+    "z": 3956.6
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000216,
+   "name": "Village 216",
+   "type": 5,
+   "position": {
+    "x": -2192.4,
+    "y": 0,
+    "z": -2640.5
+   },
+   "iconKey": "icon_5",
+   "priority": 4
+  },
+  {
+   "id": 1000217,
+   "name": "Fuel 217",
+   "type": 0,
+   "position": {
+    "x": -3805.2,
+    "y": 0,
+    "z": 3466.2
+   },
+   "iconKey": "icon_0",
+   "priority": 2
+  },
+  {
+   "id": 1000218,
+   "name": "Bridge 218",
+   "type": 4,
+   "position": {
+    "x": -3241.5,
+    "y": 0,
+    "z": 3545.2
+   },
+   "iconKey": "icon_4",
+   "priority": 4
+  },
+  {
+   "id": 1000219,
+   "name": "Shop 219",
+   "type": 1,
+   "position": {
+    "x": -7611.9,
+    "y": 0,
+    "z": -4258.1
+   },
+   "iconKey": "icon_1",
+   "priority": 3
+  },
+  {
+   "id": 1000220,
+   "name": "Ruins 220",
+   "type": 7,
+   "position": {
+    "x": 7262.6,
+    "y": 0,
+    "z": -1815.8
+   },
+   "iconKey": "icon_7",
+   "priority": 2
+  },
+  {
+   "id": 1000221,
+   "name": "Outpost 221",
+   "type": 6,
+   "position": {
+    "x": 5036.8,
+    "y": 0,
+    "z": -5876.7
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000222,
+   "name": "Camp 222",
+   "type": 2,
+   "position": {
+    "x": -7860.7,
+    "y": 0,
+    "z": 6896.9
+   },
+   "iconKey": "icon_2",
+   "priority": 2
+  },
+  {
+   "id": 1000223,
+   "name": "Camp 223",
+   "type": 2,
+   "position": {
+    "x": 1716.1,
+    "y": 0,
+    "z": -2755.2
+   },
+   "iconKey": "icon_2",
+   "priority": 2
+  },
+  {
+   "id": 1000224,
+   "name": "Ruins 224",
+   "type": 7,
+   "position": {
+    "x": -2210.3,
+    "y": 0,
+    "z": 4516.0
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000225,
+   "name": "Tower 225",
+   "type": 3,
+   "position": {
+    "x": -1733.0,
+    "y": 0,
+    "z": -5441.0
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000226,
+   "name": "Shop 226",
+   "type": 1,
+   "position": {
+    "x": 2392.7,
+    "y": 0,
+    "z": -293.0
+   },
+   "iconKey": "icon_1",
+   "priority": 4
+  },
+  {
+   "id": 1000227,
+   "name": "Village 227",
+   "type": 5,
+   "position": {
+    "x": -5428.9,
+    "y": 0,
+    "z": -1175.1
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000228,
+   "name": "Shop 228",
+   "type": 1,
+   "position": {
+    "x": -3761.7,
+    "y": 0,
+    "z": -6654.7
+   },
+   "iconKey": "icon_1",
+   "priority": 0
+  },
+  {
+   "id": 1000229,
+   "name": "Outpost 229",
+   "type": 6,
+   "position": {
+    "x": -24.4,
+    "y": 0,
+    "z": 3356.3
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000230,
+   "name": "Camp 230",
+   "type": 2,
+   "position": {
+    "x": -4252.9,
+    "y": 0,
+    "z": -1330.5
+   },
+   "iconKey": "icon_2",
+   "priority": 4
+  },
+  {
+   "id": 1000231,
+   "name": "Tower 231",
+   "type": 3,
+   "position": {
+    "x": 3967.6,
+    "y": 0,
+    "z": 5551.8
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000232,
+   "name": "Shop 232",
+   "type": 1,
+   "position": {
+    "x": 4476.0,
+    "y": 0,
+    "z": -3297.2
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000233,
+   "name": "Bridge 233",
+   "type": 4,
+   "position": {
+    "x": -2032.5,
+    "y": 0,
+    "z": 3809.1
+   },
+   "iconKey": "icon_4",
+   "priority": 1
+  },
+  {
+   "id": 1000234,
+   "name": "Ruins 234",
+   "type": 7,
+   "position": {
+    "x": -4041.1,
+    "y": 0,
+    "z": -4074.6
+   },
+   "iconKey": "icon_7",
+   "priority": 1
+  },
+  {
+   "id": 1000235,
+   "name": "Bridge 235",
+   "type": 4,
+   "position": {
+    "x": 6146.7,
+    "y": 0,
+    "z": 1252.5
+   },
+   "iconKey": "icon_4",
+   "priority": 2
+  },
+  {
+   "id": 1000236,
+   "name": "Shop 236",
+   "type": 1,
+   "position": {
+    "x": -1662.9,
+    "y": 0,
+    "z": 7879.2
+   },
+   "iconKey": "icon_1",
+   "priority": 4
+  },
+  {
+   "id": 1000237,
+   "name": "Tower 237",
+   "type": 3,
+   "position": {
+    "x": 2394.3,
+    "y": 0,
+    "z": -6391.3
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000238,
+   "name": "Fuel 238",
+   "type": 0,
+   "position": {
+    "x": -6362.7,
+    "y": 0,
+    "z": -403.8
+   },
+   "iconKey": "icon_0",
+   "priority": 1
+  },
+  {
+   "id": 1000239,
+   "name": "Ruins 239",
+   "type": 7,
+   "position": {
+    "x": 6630.0,
+    "y": 0,
+    "z": -7354.2
+   },
+   "iconKey": "icon_7",
+   "priority": 2
+  },
+  {
+   "id": 1000240,
+   "name": "Tower 240",
+   "type": 3,
+   "position": {
+    "x": -6092.5,
+    "y": 0,
+    "z": -4966.8
+   },
+   "iconKey": "icon_3",
+   "priority": 4
+  },
+  {
+   "id": 1000241,
+   "name": "Tower 241",
+   "type": 3,
+   "position": {
+    "x": 6882.8,
+    "y": 0,
+    "z": -2044.2
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000242,
+   "name": "Ruins 242",
+   "type": 7,
+   "position": {
+    "x": 1648.7,
+    "y": 0,
+    "z": 4400.0
+   },
+   "iconKey": "icon_7",
+   "priority": 5
+  },
+  {
+   "id": 1000243,
+   "name": "Fuel 243",
+   "type": 0,
+   "position": {
+    "x": -6307.5,
+    "y": 0,
+    "z": 1538.4
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000244,
+   "name": "Village 244",
+   "type": 5,
+   "position": {
+    "x": -4517.7,
+    "y": 0,
+    "z": -2100.7
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000245,
+   "name": "Fuel 245",
+   "type": 0,
+   "position": {
+    "x": -4736.4,
+    "y": 0,
+    "z": -3921.4
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000246,
+   "name": "Tower 246",
+   "type": 3,
+   "position": {
+    "x": 5035.9,
+    "y": 0,
+    "z": 5101.3
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000247,
+   "name": "Village 247",
+   "type": 5,
+   "position": {
+    "x": -5037.7,
+    "y": 0,
+    "z": -3004.9
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000248,
+   "name": "Fuel 248",
+   "type": 0,
+   "position": {
+    "x": 4724.5,
+    "y": 0,
+    "z": 768.7
+   },
+   "iconKey": "icon_0",
+   "priority": 0
+  },
+  {
+   "id": 1000249,
+   "name": "Outpost 249",
+   "type": 6,
+   "position": {
+    "x": -6377.8,
+    "y": 0,
+    "z": -1675.3
+   },
+   "iconKey": "icon_6",
+   "priority": 4
+  },
+  {
+   "id": 1000250,
+   "name": "Camp 250",
+   "type": 2,
+   "position": {
+    "x": 2226.9,
+    "y": 0,
+    "z": -6541.6
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000251,
+   "name": "Outpost 251",
+   "type": 6,
+   "position": {
+    "x": 3126.5,
+    "y": 0,
+    "z": -1443.4
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000252,
+   "name": "Bridge 252",
+   "type": 4,
+   "position": {
+    "x": -1314.5,
+    "y": 0,
+    "z": -7178.2
+   },
+   "iconKey": "icon_4",
+   "priority": 5
+  },
+  {
+   "id": 1000253,
+   "name": "Village 253",
+   "type": 5,
+   "position": {
+    "x": -1374.7,
+    "y": 0,
+    "z": -7708.6
+   },
+   "iconKey": "icon_5",
+   "priority": 2
+  },
+  {
+   "id": 1000254,
+   "name": "Tower 254",
+   "type": 3,
+   "position": {
+    "x": -1748.3,
+    "y": 0,
+    "z": -1520.4
+   },
+   "iconKey": "icon_3",
+   "priority": 0
+  },
+  {
+   "id": 1000255,
+   "name": "Outpost 255",
+   "type": 6,
+   "position": {
+    "x": 6426.1,
+    "y": 0,
+    "z": -1219.9
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000256,
+   "name": "Outpost 256",
+   "type": 6,
+   "position": {
+    "x": 1244.7,
+    "y": 0,
+    "z": -2164.4
+   },
+   "iconKey": "icon_6",
+   "priority": 1
+  },
+  {
+   "id": 1000257,
+   "name": "Camp 257",
+   "type": 2,
+   "position": {
+    "x": -7762.7,
+    "y": 0,
+    "z": 824.8
+   },
+   "iconKey": "icon_2",
+   "priority": 5
+  },
+  {
+   "id": 1000258,
+   "name": "Outpost 258",
+   "type": 6,
+   "position": {
+    "x": -6575.5,
+    "y": 0,
+    "z": 1955.1
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000259,
+   "name": "Camp 259",
+   "type": 2,
+   "position": {
+    "x": -5665.8,
+    "y": 0,
+    "z": -3467.3
+   },
+   "iconKey": "icon_2",
+   "priority": 4
+  },
+  {
+   "id": 1000260,
+   "name": "Camp 260",
+   "type": 2,
+   "position": {
+    "x": 6808.0,
+    "y": 0,
+    "z": -6259.3
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000261,
+   "name": "Tower 261",
+   "type": 3,
+   "position": {
+    "x": -3174.2,
+    "y": 0,
+    "z": 5396.7
+   },
+   "iconKey": "icon_3",
+   "priority": 0
+  },
+  {
+   "id": 1000262,
+   "name": "Ruins 262",
+   "type": 7,
+   "position": {
+    "x": -2967.6,
+    "y": 0,
+    "z": 1722.3
+   },
+   "iconKey": "icon_7",
+   "priority": 5
+  },
+  {
+   "id": 1000263,
+   "name": "Outpost 263",
+   "type": 6,
+   "position": {
+    "x": -6619.3,
+    "y": 0,
+    "z": 3397.0
+   },
+   "iconKey": "icon_6",
+   "priority": 5
+  },
+  {
+   "id": 1000264,
+   "name": "Camp 264",
+   "type": 2,
+   "position": {
+    "x": 2245.2,
+    "y": 0,
+    "z": 5705.4
+   },
+   "iconKey": "icon_2",
+   "priority": 4
+  },
+  {
+   "id": 1000265,
+   "name": "Outpost 265",
+   "type": 6,
+   "position": {
+    "x": 1835.7,
+    "y": 0,
+    "z": -4862.2
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000266,
+   "name": "Camp 266",
+   "type": 2,
+   "position": {
+    "x": 1046.8,
+    "y": 0,
+    "z": -7332.6
+   },
+   "iconKey": "icon_2",
+   "priority": 4
+  },
+  {
+   "id": 1000267,
+   "name": "Camp 267",
+   "type": 2,
+   "position": {
+    "x": -1862.8,
+    "y": 0,
+    "z": -6031.1
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000268,
+   "name": "Tower 268",
+   "type": 3,
+   "position": {
+    "x": -7342.4,
+    "y": 0,
+    "z": 997.5
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000269,
+   "name": "Fuel 269",
+   "type": 0,
+   "position": {
+    "x": 2686.3,
+    "y": 0,
+    "z": -2812.8
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000270,
+   "name": "Ruins 270",
+   "type": 7,
+   "position": {
+    "x": 800.8,
+    "y": 0,
+    "z": 2032.7
+   },
+   "iconKey": "icon_7",
+   "priority": 2
+  },
+  {
+   "id": 1000271,
+   "name": "Outpost 271",
+   "type": 6,
+   "position": {
+    "x": -3068.6,
+    "y": 0,
+    "z": -4011.9
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000272,
+   "name": "Village 272",
+   "type": 5,
+   "position": {
+    "x": -851.4,
+    "y": 0,
+    "z": -986.4
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000273,
+   "name": "Fuel 273",
+   "type": 0,
+   "position": {
+    "x": 1902.3,
+    "y": 0,
+    "z": -168.0
+   },
+   "iconKey": "icon_0",
+   "priority": 1
+  },
+  {
+   "id": 1000274,
+   "name": "Ruins 274",
+   "type": 7,
+   "position": {
+    "x": 4217.0,
+    "y": 0,
+    "z": 4479.6
+   },
+   "iconKey": "icon_7",
+   "priority": 3
+  },
+  {
+   "id": 1000275,
+   "name": "Camp 275",
+   "type": 2,
+   "position": {
+    "x": 4968.5,
+    "y": 0,
+    "z": -1594.5
+   },
+   "iconKey": "icon_2",
+   "priority": 0
+  },
+  {
+   "id": 1000276,
+   "name": "Camp 276",
+   "type": 2,
+   "position": {
+    "x": -2262.8,
+    "y": 0,
+    "z": -2154.7
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000277,
+   "name": "Fuel 277",
+   "type": 0,
+   "position": {
+    "x": -7349.6,
+    "y": 0,
+    "z": -5915.7
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000278,
+   "name": "Village 278",
+   "type": 5,
+   "position": {
+    "x": 4442.2,
+    "y": 0,
+    "z": 183.7
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000279,
+   "name": "Outpost 279",
+   "type": 6,
+   "position": {
+    "x": 2443.9,
+    "y": 0,
+    "z": 4547.9
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000280,
+   "name": "Shop 280",
+   "type": 1,
+   "position": {
+    "x": 7938.0,
+    "y": 0,
+    "z": 3713.4
+   },
+   "iconKey": "icon_1",
+   "priority": 0
+  },
+  {
+   "id": 1000281,
+   "name": "Tower 281",
+   "type": 3,
+   "position": {
+    "x": -5894.1,
+    "y": 0,
+    "z": 6171.1
+   },
+   "iconKey": "icon_3",
+   "priority": 2
+  },
+  {
+   "id": 1000282,
+   "name": "Camp 282",
+   "type": 2,
+   "position": {
+    "x": 2978.1,
+    "y": 0,
+    "z": 3537.3
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000283,
+   "name": "Shop 283",
+   "type": 1,
+   "position": {
+    "x": 5328.6,
+    "y": 0,
+    "z": 1767.1
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000284,
+   "name": "Camp 284",
+   "type": 2,
+   "position": {
+    "x": -2818.6,
+    "y": 0,
+    "z": 1816.5
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000285,
+   "name": "Camp 285",
+   "type": 2,
+   "position": {
+    "x": -3933.4,
+    "y": 0,
+    "z": 7429.2
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000286,
+   "name": "Tower 286",
+   "type": 3,
+   "position": {
+    "x": 1470.2,
+    "y": 0,
+    "z": 1853.9
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000287,
+   "name": "Village 287",
+   "type": 5,
+   "position": {
+    "x": -2043.7,
+    "y": 0,
+    "z": -4816.9
+   },
+   "iconKey": "icon_5",
+   "priority": 3
+  },
+  {
+   "id": 1000288,
+   "name": "Camp 288",
+   "type": 2,
+   "position": {
+    "x": 2185.1,
+    "y": 0,
+    "z": -3548.8
+   },
+   "iconKey": "icon_2",
+   "priority": 2
+  },
+  {
+   "id": 1000289,
+   "name": "Outpost 289",
+   "type": 6,
+   "position": {
+    "x": -5300.1,
+    "y": 0,
+    "z": 4557.9
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000290,
+   "name": "Fuel 290",
+   "type": 0,
+   "position": {
+    "x": 2181.1,
+    "y": 0,
+    "z": -2243.5
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000291,
+   "name": "Shop 291",
+   "type": 1,
+   "position": {
+    "x": -3967.5,
+    "y": 0,
+    "z": 571.2
+   },
+   "iconKey": "icon_1",
+   "priority": 3
+  },
+  {
+   "id": 1000292,
+   "name": "Village 292",
+   "type": 5,
+   "position": {
+    "x": -3763.9,
+    "y": 0,
+    "z": 7848.0
+   },
+   "iconKey": "icon_5",
+   "priority": 4
+  },
+  {
+   "id": 1000293,
+   "name": "Camp 293",
+   "type": 2,
+   "position": {
+    "x": -2236.0,
+    "y": 0,
+    "z": 4234.2
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000294,
+   "name": "Tower 294",
+   "type": 3,
+   "position": {
+    "x": -5171.9,
+    "y": 0,
+    "z": 3897.5
+   },
+   "iconKey": "icon_3",
+   "priority": 0
+  },
+  {
+   "id": 1000295,
+   "name": "Bridge 295",
+   "type": 4,
+   "position": {
+    "x": 5117.2,
+    "y": 0,
+    "z": -3941.6
+   },
+   "iconKey": "icon_4",
+   "priority": 5
+  },
+  {
+   "id": 1000296,
+   "name": "Village 296",
+   "type": 5,
+   "position": {
+    "x": 3728.6,
+    "y": 0,
+    "z": 3953.9
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000297,
+   "name": "Camp 297",
+   "type": 2,
+   "position": {
+    "x": -3344.5,
+    "y": 0,
+    "z": 2009.9
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000298,
+   "name": "Village 298",
+   "type": 5,
+   "position": {
+    "x": 6328.7,
+    "y": 0,
+    "z": -5887.6
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000299,
+   "name": "Fuel 299",
+   "type": 0,
+   "position": {
+    "x": -7643.4,
+    "y": 0,
+    "z": -7958.2
+   },
+   "iconKey": "icon_0",
+   "priority": 2
+  },
+  {
+   "id": 1000300,
+   "name": "Bridge 300",
+   "type": 4,
+   "position": {
+    "x": -6298.2,
+    "y": 0,
+    "z": -2285.6
+   },
+   "iconKey": "icon_4",
+   "priority": 1
+  },
+  {
+   "id": 1000301,
+   "name": "Outpost 301",
+   "type": 6,
+   "position": {
+    "x": 1337.5,
+    "y": 0,
+    "z": 1425.5
+   },
+   "iconKey": "icon_6",
+   "priority": 1
+  },
+  {
+   "id": 1000302,
+   "name": "Village 302",
+   "type": 5,
+   "position": {
+    "x": 1982.9,
+    "y": 0,
+    "z": -401.6
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000303,
+   "name": "Fuel 303",
+   "type": 0,
+   "position": {
+    "x": 6985.5,
+    "y": 0,
+    "z": -4102.6
+   },
+   "iconKey": "icon_0",
+   "priority": 1
+  },
+  {
+   "id": 1000304,
+   "name": "Ruins 304",
+   "type": 7,
+   "position": {
+    "x": -6467.1,
+    "y": 0,
+    "z": 2211.4
+   },
+   "iconKey": "icon_7",
+   "priority": 5
+  },
+  {
+   "id": 1000305,
+   "name": "Bridge 305",
+   "type": 4,
+   "position": {
+    "x": -1568.8,
+    "y": 0,
+    "z": -3772.2
+   },
+   "iconKey": "icon_4",
+   "priority": 0
+  },
+  {
+   "id": 1000306,
+   "name": "Fuel 306",
+   "type": 0,
+   "position": {
+    "x": 2319.2,
+    "y": 0,
+    "z": 997.3
+   },
+   "iconKey": "icon_0",
+   "priority": 2
+  },
+  {
+   "id": 1000307,
+   "name": "Ruins 307",
+   "type": 7,
+   "position": {
+    "x": 1630.1,
+    "y": 0,
+    "z": 281.3
+   },
+   "iconKey": "icon_7",
+   "priority": 3
+  },
+  {
+   "id": 1000308,
+   "name": "Tower 308",
+   "type": 3,
+   "position": {
+    "x": -5358.4,
+    "y": 0,
+    "z": -7993.6
+   },
+   "iconKey": "icon_3",
+   "priority": 0
+  },
+  {
+   "id": 1000309,
+   "name": "Fuel 309",
+   "type": 0,
+   "position": {
+    "x": -1504.2,
+    "y": 0,
+    "z": -4197.3
+   },
+   "iconKey": "icon_0",
+   "priority": 0
+  },
+  {
+   "id": 1000310,
+   "name": "Shop 310",
+   "type": 1,
+   "position": {
+    "x": -7802.4,
+    "y": 0,
+    "z": 814.8
+   },
+   "iconKey": "icon_1",
+   "priority": 1
+  },
+  {
+   "id": 1000311,
+   "name": "Camp 311",
+   "type": 2,
+   "position": {
+    "x": -1389.1,
+    "y": 0,
+    "z": 292.1
+   },
+   "iconKey": "icon_2",
+   "priority": 5
+  },
+  {
+   "id": 1000312,
+   "name": "Outpost 312",
+   "type": 6,
+   "position": {
+    "x": 5014.1,
+    "y": 0,
+    "z": -5205.8
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000313,
+   "name": "Shop 313",
+   "type": 1,
+   "position": {
+    "x": -3195.7,
+    "y": 0,
+    "z": -7224.1
+   },
+   "iconKey": "icon_1",
+   "priority": 5
+  },
+  {
+   "id": 1000314,
+   "name": "Ruins 314",
+   "type": 7,
+   "position": {
+    "x": 3446.4,
+    "y": 0,
+    "z": -7898.4
+   },
+   "iconKey": "icon_7",
+   "priority": 3
+  },
+  {
+   "id": 1000315,
+   "name": "Ruins 315",
+   "type": 7,
+   "position": {
+    "x": -6712.3,
+    "y": 0,
+    "z": 2488.5
+   },
+   "iconKey": "icon_7",
+   "priority": 1
+  },
+  {
+   "id": 1000316,
+   "name": "Tower 316",
+   "type": 3,
+   "position": {
+    "x": 7945.8,
+    "y": 0,
+    "z": -3817.2
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000317,
+   "name": "Fuel 317",
+   "type": 0,
+   "position": {
+    "x": -6027.7,
+    "y": 0,
+    "z": 6260.4
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000318,
+   "name": "Bridge 318",
+   "type": 4,
+   "position": {
+    "x": 3386.9,
+    "y": 0,
+    "z": -3744.2
+   },
+   "iconKey": "icon_4",
+   "priority": 4
+  },
+  {
+   "id": 1000319,
+   "name": "Outpost 319",
+   "type": 6,
+   "position": {
+    "x": 2971.7,
+    "y": 0,
+    "z": 6676.4
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000320,
+   "name": "Bridge 320",
+   "type": 4,
+   "position": {
+    "x": 2272.1,
+    "y": 0,
+    "z": 7442.3
+   },
+   "iconKey": "icon_4",
+   "priority": 1
+  },
+  {
+   "id": 1000321,
+   "name": "Shop 321",
+   "type": 1,
+   "position": {
+    "x": 6080.7,
+    "y": 0,
+    "z": -7756.4
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000322,
+   "name": "Tower 322",
+   "type": 3,
+   "position": {
+    "x": 5467.6,
+    "y": 0,
+    "z": -4755.6
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000323,
+   "name": "Village 323",
+   "type": 5,
+   "position": {
+    "x": -4929.0,
+    "y": 0,
+    "z": -1780.7
+   },
+   "iconKey": "icon_5",
+   "priority": 4
+  },
+  {
+   "id": 1000324,
+   "name": "Tower 324",
+   "type": 3,
+   "position": {
+    "x": -1928.8,
+    "y": 0,
+    "z": 5630.8
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000325,
+   "name": "Ruins 325",
+   "type": 7,
+   "position": {
+    "x": -445.8,
+    "y": 0,
+    "z": 489.9
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000326,
+   "name": "Fuel 326",
+   "type": 0,
+   "position": {
+    "x": -1004.6,
+    "y": 0,
+    "z": 3594.0
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000327,
+   "name": "Bridge 327",
+   "type": 4,
+   "position": {
+    "x": 4627.2,
+    "y": 0,
+    "z": -1735.0
+   },
+   "iconKey": "icon_4",
+   "priority": 4
+  },
+  {
+   "id": 1000328,
+   "name": "Shop 328",
+   "type": 1,
+   "position": {
+    "x": 1043.3,
+    "y": 0,
+    "z": -5255.3
+   },
+   "iconKey": "icon_1",
+   "priority": 0
+  },
+  {
+   "id": 1000329,
+   "name": "Fuel 329",
+   "type": 0,
+   "position": {
+    "x": -6209.7,
+    "y": 0,
+    "z": 1951.5
+   },
+   "iconKey": "icon_0",
+   "priority": 1
+  },
+  {
+   "id": 1000330,
+   "name": "Village 330",
+   "type": 5,
+   "position": {
+    "x": 7638.5,
+    "y": 0,
+    "z": 3211.8
+   },
+   "iconKey": "icon_5",
+   "priority": 0
+  },
+  {
+   "id": 1000331,
+   "name": "Fuel 331",
+   "type": 0,
+   "position": {
+    "x": -5785.6,
+    "y": 0,
+    "z": 2296.7
+   },
+   "iconKey": "icon_0",
+   "priority": 0
+  },
+  {
+   "id": 1000332,
+   "name": "Shop 332",
+   "type": 1,
+   "position": {
+    "x": 3788.6,
+    "y": 0,
+    "z": -6947.8
+   },
+   "iconKey": "icon_1",
+   "priority": 4
+  },
+  {
+   "id": 1000333,
+   "name": "Village 333",
+   "type": 5,
+   "position": {
+    "x": -4811.0,
+    "y": 0,
+    "z": 7273.1
+   },
+   "iconKey": "icon_5",
+   "priority": 4
+  },
+  {
+   "id": 1000334,
+   "name": "Shop 334",
+   "type": 1,
+   "position": {
+    "x": 6075.4,
+    "y": 0,
+    "z": 4092.4
+   },
+   "iconKey": "icon_1",
+   "priority": 5
+  },
+  {
+   "id": 1000335,
+   "name": "Outpost 335",
+   "type": 6,
+   "position": {
+    "x": -6286.1,
+    "y": 0,
+    "z": -4708.4
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000336,
+   "name": "Fuel 336",
+   "type": 0,
+   "position": {
+    "x": -7449.2,
+    "y": 0,
+    "z": 5563.5
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000337,
+   "name": "Shop 337",
+   "type": 1,
+   "position": {
+    "x": 5201.0,
+    "y": 0,
+    "z": 2104.6
+   },
+   "iconKey": "icon_1",
+   "priority": 2
+  },
+  {
+   "id": 1000338,
+   "name": "Ruins 338",
+   "type": 7,
+   "position": {
+    "x": -6402.0,
+    "y": 0,
+    "z": -6434.2
+   },
+   "iconKey": "icon_7",
+   "priority": 5
+  },
+  {
+   "id": 1000339,
+   "name": "Tower 339",
+   "type": 3,
+   "position": {
+    "x": -3288.6,
+    "y": 0,
+    "z": -2615.7
+   },
+   "iconKey": "icon_3",
+   "priority": 2
+  },
+  {
+   "id": 1000340,
+   "name": "Fuel 340",
+   "type": 0,
+   "position": {
+    "x": -2385.6,
+    "y": 0,
+    "z": 6881.6
+   },
+   "iconKey": "icon_0",
+   "priority": 0
+  },
+  {
+   "id": 1000341,
+   "name": "Village 341",
+   "type": 5,
+   "position": {
+    "x": 6565.3,
+    "y": 0,
+    "z": 4307.8
+   },
+   "iconKey": "icon_5",
+   "priority": 4
+  },
+  {
+   "id": 1000342,
+   "name": "Ruins 342",
+   "type": 7,
+   "position": {
+    "x": 5622.0,
+    "y": 0,
+    "z": 1892.4
+   },
+   "iconKey": "icon_7",
+   "priority": 0
+  },
+  {
+   "id": 1000343,
+   "name": "Outpost 343",
+   "type": 6,
+   "position": {
+    "x": -7500.0,
+    "y": 0,
+    "z": 298.0
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000344,
+   "name": "Village 344",
+   "type": 5,
+   "position": {
+    "x": -496.9,
+    "y": 0,
+    "z": -7230.1
+   },
+   "iconKey": "icon_5",
+   "priority": 4
+  },
+  {
+   "id": 1000345,
+   "name": "Tower 345",
+   "type": 3,
+   "position": {
+    "x": 3430.2,
+    "y": 0,
+    "z": 5245.3
+   },
+   "iconKey": "icon_3",
+   "priority": 4
+  },
+  {
+   "id": 1000346,
+   "name": "Bridge 346",
+   "type": 4,
+   "position": {
+    "x": -5274.1,
+    "y": 0,
+    "z": -7979.2
+   },
+   "iconKey": "icon_4",
+   "priority": 1
+  },
+  {
+   "id": 1000347,
+   "name": "Bridge 347",
+   "type": 4,
+   "position": {
+    "x": 4194.9,
+    "y": 0,
+    "z": 7645.9
+   },
+   "iconKey": "icon_4",
+   "priority": 0
+  },
+  {
+   "id": 1000348,
+   "name": "Village 348",
+   "type": 5,
+   "position": {
+    "x": -146.8,
+    "y": 0,
+    "z": -136.3
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000349,
+   "name": "Ruins 349",
+   "type": 7,
+   "position": {
+    "x": 1480.9,
+    "y": 0,
+    "z": 7315.3
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000350,
+   "name": "Bridge 350",
+   "type": 4,
+   "position": {
+    "x": 1248.1,
+    "y": 0,
+    "z": -5457.7
+   },
+   "iconKey": "icon_4",
+   "priority": 1
+  },
+  {
+   "id": 1000351,
+   "name": "Tower 351",
+   "type": 3,
+   "position": {
+    "x": -27.0,
+    "y": 0,
+    "z": -6241.2
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000352,
+   "name": "Shop 352",
+   "type": 1,
+   "position": {
+    "x": -155.3,
+    "y": 0,
+    "z": 7857.8
+   },
+   "iconKey": "icon_1",
+   "priority": 4
+  },
+  {
+   "id": 1000353,
+   "name": "Shop 353",
+   "type": 1,
+   "position": {
+    "x": 2046.9,
+    "y": 0,
+    "z": -2310.1
+   },
+   "iconKey": "icon_1",
+   "priority": 3
+  },
+  {
+   "id": 1000354,
+   "name": "Outpost 354",
+   "type": 6,
+   "position": {
+    "x": 6269.5,
+    "y": 0,
+    "z": 3923.5
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000355,
+   "name": "Fuel 355",
+   "type": 0,
+   "position": {
+    "x": -2048.8,
+    "y": 0,
+    "z": -3149.7
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000356,
+   "name": "Camp 356",
+   "type": 2,
+   "position": {
+    "x": -1931.1,
+    "y": 0,
+    "z": 6143.7
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000357,
+   "name": "Ruins 357",
+   "type": 7,
+   "position": {
+    "x": -5969.9,
+    "y": 0,
+    "z": 1505.4
+   },
+   "iconKey": "icon_7",
+   "priority": 5
+  },
+  {
+   "id": 1000358,
+   "name": "Fuel 358",
+   "type": 0,
+   "position": {
+    "x": -2424.2,
+    "y": 0,
+    "z": -2773.4
+   },
+   "iconKey": "icon_0",
+   "priority": 1
+  },
+  {
+   "id": 1000359,
+   "name": "Ruins 359",
+   "type": 7,
+   "position": {
+    "x": 2593.6,
+    "y": 0,
+    "z": 3871.8
+   },
+   "iconKey": "icon_7",
+   "priority": 1
+  },
+  {
+   "id": 1000360,
+   "name": "Ruins 360",
+   "type": 7,
+   "position": {
+    "x": -979.2,
+    "y": 0,
+    "z": 4375.0
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000361,
+   "name": "Tower 361",
+   "type": 3,
+   "position": {
+    "x": -5983.1,
+    "y": 0,
+    "z": -607.7
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000362,
+   "name": "Tower 362",
+   "type": 3,
+   "position": {
+    "x": 123.3,
+    "y": 0,
+    "z": -3720.3
+   },
+   "iconKey": "icon_3",
+   "priority": 5
+  },
+  {
+   "id": 1000363,
+   "name": "Camp 363",
+   "type": 2,
+   "position": {
+    "x": 3573.4,
+    "y": 0,
+    "z": 7596.3
+   },
+   "iconKey": "icon_2",
+   "priority": 5
+  },
+  {
+   "id": 1000364,
+   "name": "Village 364",
+   "type": 5,
+   "position": {
+    "x": 1646.3,
+    "y": 0,
+    "z": -2421.9
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000365,
+   "name": "Village 365",
+   "type": 5,
+   "position": {
+    "x": 7292.7,
+    "y": 0,
+    "z": -3861.0
+   },
+   "iconKey": "icon_5",
+   "priority": 5
+  },
+  {
+   "id": 1000366,
+   "name": "Shop 366",
+   "type": 1,
+   "position": {
+    "x": -5366.4,
+    "y": 0,
+    "z": 2526.4
+   },
+   "iconKey": "icon_1",
+   "priority": 1
+  },
+  {
+   "id": 1000367,
+   "name": "Outpost 367",
+   "type": 6,
+   "position": {
+    "x": -5584.6,
+    "y": 0,
+    "z": -5626.9
+   },
+   "iconKey": "icon_6",
+   "priority": 2
+  },
+  {
+   "id": 1000368,
+   "name": "Bridge 368",
+   "type": 4,
+   "position": {
+    "x": -1041.2,
+    "y": 0,
+    "z": -4860.9
+   },
+   "iconKey": "icon_4",
+   "priority": 5
+  },
+  {
+   "id": 1000369,
+   "name": "Shop 369",
+   "type": 1,
+   "position": {
+    "x": -3507.1,
+    "y": 0,
+    "z": 6164.0
+   },
+   "iconKey": "icon_1",
+   "priority": 3
+  },
+  {
+   "id": 1000370,
+   "name": "Fuel 370",
+   "type": 0,
+   "position": {
+    "x": -7798.1,
+    "y": 0,
+    "z": 5669.2
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000371,
+   "name": "Tower 371",
+   "type": 3,
+   "position": {
+    "x": 7.8,
+    "y": 0,
+    "z": 2118.0
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000372,
+   "name": "Fuel 372",
+   "type": 0,
+   "position": {
+    "x": -5731.0,
+    "y": 0,
+    "z": 1659.3
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000373,
+   "name": "Fuel 373",
+   "type": 0,
+   "position": {
+    "x": 3855.1,
+    "y": 0,
+    "z": 6528.1
+   },
+   "iconKey": "icon_0",
+   "priority": 3
+  },
+  {
+   "id": 1000374,
+   "name": "Outpost 374",
+   "type": 6,
+   "position": {
+    "x": 5535.9,
+    "y": 0,
+    "z": 2686.3
+   },
+   "iconKey": "icon_6",
+   "priority": 5
+  },
+  {
+   "id": 1000375,
+   "name": "Tower 375",
+   "type": 3,
+   "position": {
+    "x": 2873.5,
+    "y": 0,
+    "z": 2264.6
+   },
+   "iconKey": "icon_3",
+   "priority": 3
+  },
+  {
+   "id": 1000376,
+   "name": "Outpost 376",
+   "type": 6,
+   "position": {
+    "x": -2991.8,
+    "y": 0,
+    "z": 2052.4
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000377,
+   "name": "Outpost 377",
+   "type": 6,
+   "position": {
+    "x": -4121.7,
+    "y": 0,
+    "z": -1597.9
+   },
+   "iconKey": "icon_6",
+   "priority": 5
+  },
+  {
+   "id": 1000378,
+   "name": "Camp 378",
+   "type": 2,
+   "position": {
+    "x": -3999.0,
+    "y": 0,
+    "z": -1222.7
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000379,
+   "name": "Fuel 379",
+   "type": 0,
+   "position": {
+    "x": 1945.1,
+    "y": 0,
+    "z": -1450.5
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000380,
+   "name": "Camp 380",
+   "type": 2,
+   "position": {
+    "x": 6311.9,
+    "y": 0,
+    "z": -2751.1
+   },
+   "iconKey": "icon_2",
+   "priority": 0
+  },
+  {
+   "id": 1000381,
+   "name": "Outpost 381",
+   "type": 6,
+   "position": {
+    "x": 5309.9,
+    "y": 0,
+    "z": 6531.1
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000382,
+   "name": "Fuel 382",
+   "type": 0,
+   "position": {
+    "x": -3980.4,
+    "y": 0,
+    "z": -4513.9
+   },
+   "iconKey": "icon_0",
+   "priority": 5
+  },
+  {
+   "id": 1000383,
+   "name": "Tower 383",
+   "type": 3,
+   "position": {
+    "x": 307.5,
+    "y": 0,
+    "z": -6382.6
+   },
+   "iconKey": "icon_3",
+   "priority": 4
+  },
+  {
+   "id": 1000384,
+   "name": "Ruins 384",
+   "type": 7,
+   "position": {
+    "x": 656.6,
+    "y": 0,
+    "z": 3476.7
+   },
+   "iconKey": "icon_7",
+   "priority": 4
+  },
+  {
+   "id": 1000385,
+   "name": "Fuel 385",
+   "type": 0,
+   "position": {
+    "x": 2228.2,
+    "y": 0,
+    "z": 5263.8
+   },
+   "iconKey": "icon_0",
+   "priority": 4
+  },
+  {
+   "id": 1000386,
+   "name": "Village 386",
+   "type": 5,
+   "position": {
+    "x": -1434.4,
+    "y": 0,
+    "z": 7167.6
+   },
+   "iconKey": "icon_5",
+   "priority": 1
+  },
+  {
+   "id": 1000387,
+   "name": "Camp 387",
+   "type": 2,
+   "position": {
+    "x": -1720.1,
+    "y": 0,
+    "z": 4203.2
+   },
+   "iconKey": "icon_2",
+   "priority": 0
+  },
+  {
+   "id": 1000388,
+   "name": "Village 388",
+   "type": 5,
+   "position": {
+    "x": 2201.1,
+    "y": 0,
+    "z": -3960.7
+   },
+   "iconKey": "icon_5",
+   "priority": 3
+  },
+  {
+   "id": 1000389,
+   "name": "Outpost 389",
+   "type": 6,
+   "position": {
+    "x": -7015.9,
+    "y": 0,
+    "z": -6797.0
+   },
+   "iconKey": "icon_6",
+   "priority": 3
+  },
+  {
+   "id": 1000390,
+   "name": "Village 390",
+   "type": 5,
+   "position": {
+    "x": 1282.8,
+    "y": 0,
+    "z": -6251.9
+   },
+   "iconKey": "icon_5",
+   "priority": 2
+  },
+  {
+   "id": 1000391,
+   "name": "Outpost 391",
+   "type": 6,
+   "position": {
+    "x": 7038.9,
+    "y": 0,
+    "z": 433.2
+   },
+   "iconKey": "icon_6",
+   "priority": 1
+  },
+  {
+   "id": 1000392,
+   "name": "Outpost 392",
+   "type": 6,
+   "position": {
+    "x": -606.1,
+    "y": 0,
+    "z": -5367.5
+   },
+   "iconKey": "icon_6",
+   "priority": 0
+  },
+  {
+   "id": 1000393,
+   "name": "Tower 393",
+   "type": 3,
+   "position": {
+    "x": -493.5,
+    "y": 0,
+    "z": 992.9
+   },
+   "iconKey": "icon_3",
+   "priority": 1
+  },
+  {
+   "id": 1000394,
+   "name": "Camp 394",
+   "type": 2,
+   "position": {
+    "x": -2349.9,
+    "y": 0,
+    "z": 2220.7
+   },
+   "iconKey": "icon_2",
+   "priority": 3
+  },
+  {
+   "id": 1000395,
+   "name": "Ruins 395",
+   "type": 7,
+   "position": {
+    "x": 7938.2,
+    "y": 0,
+    "z": 4158.2
+   },
+   "iconKey": "icon_7",
+   "priority": 5
+  },
+  {
+   "id": 1000396,
+   "name": "Camp 396",
+   "type": 2,
+   "position": {
+    "x": 4477.5,
+    "y": 0,
+    "z": -489.6
+   },
+   "iconKey": "icon_2",
+   "priority": 1
+  },
+  {
+   "id": 1000397,
+   "name": "Bridge 397",
+   "type": 4,
+   "position": {
+    "x": 3267.2,
+    "y": 0,
+    "z": 2999.2
+   },
+   "iconKey": "icon_4",
+   "priority": 3
+  },
+  {
+   "id": 1000398,
+   "name": "Camp 398",
+   "type": 2,
+   "position": {
+    "x": -294.9,
+    "y": 0,
+    "z": 4887.0
+   },
+   "iconKey": "icon_2",
+   "priority": 2
+  },
+  {
+   "id": 1000399,
+   "name": "Village 399",
+   "type": 5,
+   "position": {
+    "x": -4080.5,
+    "y": 0,
+    "z": -3170.9
+   },
+   "iconKey": "icon_5",
+   "priority": 3
+  }
+ ]
+}
