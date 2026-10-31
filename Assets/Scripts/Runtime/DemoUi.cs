@@ -96,6 +96,8 @@ namespace Poi.Runtime
             GUILayout.Label($"Camera height {Camera.Height:F0} m");
             Camera.Height = GUILayout.HorizontalSlider(Camera.Height, Camera.MinHeight, Camera.MaxHeight);
             Player.AutoRun = GUILayout.Toggle(Player.AutoRun, "Auto run");
+            bool declutter = GUILayout.Toggle(Demo.DeclutterLabels, "Hide overlapping labels");
+            if (declutter != Demo.DeclutterLabels) Demo.SetDeclutterOn(declutter);
         }
 
         // add / move / remove one POI through the public API

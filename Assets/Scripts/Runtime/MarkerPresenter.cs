@@ -21,6 +21,7 @@ namespace Poi.Runtime
         readonly PoiStore _store;
         readonly MarkerSelector _selector;
         readonly IMarkerPool _pool;
+        LabelDeclutter _declutter; // optional, set with SetDeclutter
         readonly Dictionary<int, Slot> _active;
         readonly Stack<Slot> _freeSlots;
         readonly List<int> _toRemove;
@@ -42,6 +43,9 @@ namespace Poi.Runtime
             _toRemove = new List<int>(cap);
         }
 
+        // turn label decluttering on (pass null to turn it off)
+        public void SetDeclutter(LabelDeclutter declutter) => _declutter = declutter;
+
         public bool IsShowing(int poiId) => _active.ContainsKey(poiId);
 
         public void Refresh(float playerX, float playerZ, in GroundRect visible)
@@ -50,6 +54,8 @@ namespace Poi.Runtime
 
             _sw.Restart();
             int n = _selector.Select(playerX, playerZ, visible.MinX, visible.MinZ, visible.MaxX, visible.MaxZ);
+            // drop labels that would overlap before the views get updated
+            if (_declutter != null) _declutter.HideOverlappingLabels(_selector.Results, n);
             LastSelectMs = _sw.Elapsed.TotalMilliseconds;
 
             _sw.Restart();

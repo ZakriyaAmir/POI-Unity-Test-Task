@@ -515,6 +515,7 @@ MonoBehaviour:
   Budget: 250
   IconRange: 350
   LabelRange: 80
+  DeclutterLabels: 1
 --- !u!4 &1031511686
 Transform:
   m_ObjectHideFlags: 0
