@@ -15,6 +15,7 @@ namespace Poi.Runtime
     {
         [Header("Scene refs")]
         public TextAsset SeedJson;
+        public PoiConfig Config; // optional, if set its values win over the ones below
         public Transform Player;
         public TopDownCamera Camera;
         public Transform MarkerRoot;
@@ -65,10 +66,47 @@ namespace Poi.Runtime
 
         void Awake()
         {
+            ApplyConfig();
             CreateStoreAndFeed();
             Selector = new MarkerSelector(Store, Budget, 8192) { IconRange = IconRange, LabelRange = LabelRange };
             _icons = new AddressablesIconLoader();
             LoadMarkerPrefab();
+        }
+
+        // copy the numbers from the config asset into this script and the other demo scripts.
+        // no config = keep whatever is set in the Inspector
+        void ApplyConfig()
+        {
+            if (Config == null) return;
+
+            Budget = Config.Budget;
+            IconRange = Config.IconRange;
+            LabelRange = Config.LabelRange;
+            DeclutterLabels = Config.DeclutterLabels;
+
+            InitialCount = Config.InitialCount;
+            AddsPerSecond = Config.AddsPerSecond;
+            RemovesPerSecond = Config.RemovesPerSecond;
+            MoveShare = Config.MoveShare;
+            MoveSpeed = Config.MoveSpeed;
+
+            if (Camera != null)
+            {
+                Camera.MinHeight = Config.MinHeight;
+                Camera.MaxHeight = Config.MaxHeight;
+                Camera.Height = Camera.Height; // re-clamp to the new limits
+            }
+
+            var edges = GetComponent<EdgeIndicatorUi>();
+            if (edges != null)
+            {
+                edges.MinPriority = Config.EdgeMinPriority;
+                edges.SearchRange = Config.EdgeSearchRange;
+                edges.MaxArrows = Config.EdgeMaxArrows;
+            }
+
+            var click = GetComponent<MarkerClickDetails>();
+            if (click != null) click.ClickRadius = Config.ClickRadius;
         }
 
         void CreateStoreAndFeed()

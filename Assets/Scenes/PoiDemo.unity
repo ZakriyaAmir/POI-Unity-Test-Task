@@ -502,6 +502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SeedJson: {fileID: 4900000, guid: 28b90b618eacaa9729c67d4369b61b1e, type: 3}
+  Config: {fileID: 11400000, guid: 9a8b7c6d5e4f40312a1b2c3d4e5f6a7b, type: 2}
   Player: {fileID: 1804536349}
   Camera: {fileID: 740183858}
   MarkerRoot: {fileID: 497523156}

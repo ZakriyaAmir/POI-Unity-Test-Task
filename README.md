@@ -36,6 +36,13 @@ Unity -batchmode -nographics -projectPath . -executeMethod Poi.EditorTools.Bench
 It writes `Benchmarks/results.md` and a profiler capture `Benchmarks/profile_250k.raw`
 (open it in Window > Analysis > Profiler > Load).
 
+### Config asset
+
+All main settings live in `Assets/Data/PoiConfig.asset` (make more with Create > POI > Poi Config). PoiDemo copies
+them into itself, the camera, the edge indicators and the click panel at startup in `ApplyConfig()`. Leave the Config
+slot empty and the scripts just use their own Inspector values. Changes while playing (panel, API) still go through
+PoiDemo / the simulator like before.
+
 ## Design
 
 Three layers, each its own assembly:

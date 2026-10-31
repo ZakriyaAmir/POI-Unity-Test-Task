@@ -18,6 +18,7 @@ namespace Poi.EditorTools
         const string PrefabPath = "Assets/Prefabs/Marker.prefab";
         public const string ScenePath = "Assets/Scenes/PoiDemo.unity";
         const string SeedPath = "Assets/Data/poi_seed.json";
+        const string ConfigPath = "Assets/Data/PoiConfig.asset";
 
         static readonly Color[] Colors =
         {
@@ -167,6 +168,7 @@ namespace Poi.EditorTools
             demo.Player = player.transform;
             demo.Camera = tdc;
             demo.MarkerRoot = markers.transform;
+            demo.Config = MakeConfig();
 
             var ui = sys.AddComponent<DemoUi>();
             ui.Demo = demo; ui.Player = pc; ui.Camera = tdc;
@@ -182,6 +184,16 @@ namespace Poi.EditorTools
 
             EditorSceneManager.SaveScene(scene, ScenePath);
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(ScenePath, true) };
+        }
+
+        // makes the config asset with default values, or reuses it if it is already there
+        static PoiConfig MakeConfig()
+        {
+            var config = AssetDatabase.LoadAssetAtPath<PoiConfig>(ConfigPath);
+            if (config != null) return config;
+            config = ScriptableObject.CreateInstance<PoiConfig>();
+            AssetDatabase.CreateAsset(config, ConfigPath);
+            return config;
         }
 
         static Texture2D MakeGroundTexture()
