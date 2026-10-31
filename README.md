@@ -109,7 +109,7 @@ If the world got 10x bigger with the same density, the lookup would stay the sam
 
 ## Measurements
 
-Measured on this machine: Intel Xeon (cloud VM, model name just "Intel(R) Xeon(R) Processor"), 8 vCPU, 16 GB RAM, Linux.
+Measured on this machine: Apple M1 x8, RAM 8192 MB
 **In the editor, in play mode, in batch mode with `-nographics`** (graphics device Null). That means there is no
 rendering and no GPU cost in these numbers, it's basically the CPU cost of the scripts plus Unity's player loop.
 In a normal editor with rendering the frame times will be higher; the lookup and GC columns should be similar.
@@ -120,17 +120,17 @@ Setup: player auto-running at 80 m/s, camera at 400 m (widest), budget 250, 5% o
 
 | POIs in world | Avg frame time | 95th pct frame time | Lookup cost per frame (ms) | GC alloc per frame after warm-up | Active markers |
 |---|---|---|---|---|---|
-| 1,000 | 0.13 ms | 0.16 ms | 0.003 | 0 B | 23 |
-| 25,000 | 0.31 ms | 0.71 ms | 0.009 | 0 B | 49 |
-| 250,000 | 1.34 ms | 1.76 ms | 0.108 | 0 B | 250 |
+| 1,000 (+seed, actual 1,400) | 1.08 ms | 1.30 ms | 0.005 | 0.0 B | 24 |
+| 25,000 (+seed, actual 25,400) | 1.45 ms | 1.75 ms | 0.014 | 0.0 B | 46 |
+| 250,000 (+seed, actual 250,400) | 4.57 ms | 5.17 ms | 0.163 | 0.0 B | 250 |
 
-Extra numbers from the same run (full output in `Benchmarks/results.md`). The VM was noisier on this run than the first one, the old code measured the same back to back, so the small rise is the machine not the cleanup. Max frame is single spikes (editor/VM), p95 is the better number:
+Extra numbers from the same run (full output in `Benchmarks/results.md`). The machine was noisier on this run than the first one, the old code measured the same back to back, so the small rise is the machine not the cleanup.
 
-| POIs | max frame (ms) | avg feed tick (ms) | avg marker apply (ms) | avg candidates |
-|---|---|---|---|---|
-| 1,000 | 9.25 | 0.004 | 0.008 | 23 |
-| 25,000 | 6.99 | 0.094 | 0.019 | 50 |
-| 250,000 | 7.80 | 0.786 | 0.157 | 313 |
+| POIs | max frame (ms) | avg feed tick (ms) | avg marker apply (ms) | avg candidates | GC alloc in POI code per frame (B) | total GC bytes over measured frames |
+|---|---|---|---|---|---|---|
+| 1,000 | 7.55 | 0.010 | 0.013 | 25 | 0.0 | 0 |
+| 25,000 | 8.49 | 0.153 | 0.030 | 48 | 0.0 | 0 |
+| 250,000 | 11.50 | 1.485 | 0.245 | 332 | 0.0 | 0 |
 
 - GC alloc is `GC.GetAllocatedBytesForCurrentThread()` over each whole frame (main thread), with the IMGUI panel hidden.
 - At 1k and 25k there are fewer POIs in view than the budget, so active markers are below 250. At 250k the budget is full.
