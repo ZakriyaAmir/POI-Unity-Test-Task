@@ -15,9 +15,11 @@ namespace Poi.Runtime
         public float ClickRadius = 8f;          // meters, about the marker icon size
         public float IgnoreClicksLeftOf = 350f; // pixels, the control panel lives there
         public Rect PanelRect = new Rect(0, 10, 260, 150); // x is set from the right edge
+        public float AnimationDuration = 0.15f; // scale animation duration in seconds
 
         PoiPicker _picker;
         int _selectedId = -1;
+        float _animTimer;
 
         void Start()
         {
@@ -36,7 +38,12 @@ namespace Poi.Runtime
 
             if (TryGetGroundSpot(Input.mousePosition, out var spot))
             {
-                _selectedId = _picker.FindPoiAt(spot.x, spot.z, ClickRadius);
+                var hitId = _picker.FindPoiAt(spot.x, spot.z, ClickRadius);
+                if (hitId >= 0)
+                {
+                    _selectedId = hitId;
+                    _animTimer = 0f; // restart scale-up animation on every POI click
+                }
             }
         }
 
@@ -71,6 +78,10 @@ namespace Poi.Runtime
         void OnGUI()
         {
             if (_selectedId < 0 || Demo == null || Demo.Store == null) return;
+
+            if (_animTimer < AnimationDuration)
+                _animTimer += Time.deltaTime;
+
             ShowDetailsPanel();
         }
 
@@ -83,13 +94,23 @@ namespace Poi.Runtime
                 return;
             }
 
-            GUILayout.BeginArea(GetPanelRect(), GUI.skin.box);
+            var rect = GetPanelRect();
+            float t = AnimationDuration > 0f ? Mathf.Clamp01(_animTimer / AnimationDuration) : 1f;
+            float scale = Mathf.Lerp(0.8f, 1f, t);
+
+            var prevMatrix = GUI.matrix;
+            Vector2 pivot = new Vector2(rect.center.x, rect.center.y);
+            GUIUtility.ScaleAroundPivot(new Vector2(scale, scale), pivot);
+
+            GUILayout.BeginArea(rect, GUI.skin.box);
             GUILayout.Label("<b>" + poi.Name + "</b>");
             GUILayout.Label("id " + poi.Id + "   type " + poi.Type + "   priority " + poi.Priority);
             GUILayout.Label("position x " + poi.X.ToString("F0") + "  z " + poi.Z.ToString("F0"));
             GUILayout.Label("icon " + poi.IconKey);
             if (GUILayout.Button("Close")) HideDetailsPanel();
             GUILayout.EndArea();
+
+            GUI.matrix = prevMatrix;
         }
 
         public void HideDetailsPanel() => _selectedId = -1;

@@ -60,7 +60,6 @@ namespace Poi.Runtime
             if (GUILayout.Button("1k")) sim.TargetCount = 1000;
             if (GUILayout.Button("25k")) sim.TargetCount = 25000;
             if (GUILayout.Button("250k")) sim.TargetCount = 250000;
-            if (GUILayout.Button("0")) sim.TargetCount = 0;
             GUILayout.EndHorizontal();
             sim.TargetCount = (int)GUILayout.HorizontalSlider(sim.TargetCount, 0, 250000);
 
