@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Poi.Core
 {
-    // Uniform grid over a square world, updated incrementally (no rebuilds).
-    // Each cell keeps a list of ids. Every id remembers its cell and its index in that list,
-    // so remove is a swap-remove and move only touches the two cells involved.
-    // Queries only visit the cells overlapping the query area and write into a caller list,
-    // so cost depends on how many POIs are near the area, not on the total count.
+    // a simple grid over the whole square world. we update it as things change, never rebuild it.
+    // each cell has a list of ids. every id also remembers which cell it's in and where in that list,
+    // so removing is quick (swap with last) and moving only touches the old and new cell.
+    // a query only looks at cells that touch the area and puts ids in the list you pass in,
+    // so it only costs as much as the POIs near that area, not all of them.
     public class SpatialGrid
     {
         struct Entry
@@ -77,7 +77,7 @@ namespace Poi.Core
             return true;
         }
 
-        // Adds ids inside the rectangle (inclusive) to results. Does not clear results.
+        // adds ids inside the rect (edges count) to results. doesn't clear results first.
         public void QueryRect(float minX, float minZ, float maxX, float maxZ, List<int> results)
         {
             CellRange(minX, minZ, maxX, maxZ, out int cx0, out int cz0, out int cx1, out int cz1);
@@ -98,7 +98,7 @@ namespace Poi.Core
             }
         }
 
-        // Adds ids within radius (ground distance on x/z) of the center. Does not clear results.
+        // adds ids within radius (ground distance on x/z) of the center. doesn't clear results first.
         public void QueryCircle(float cx, float cz, float radius, List<int> results)
         {
             float r2 = radius * radius;
@@ -126,7 +126,7 @@ namespace Poi.Core
             return dx * dx + dz * dz;
         }
 
-        // Positions outside the world get clamped to the edge cells.
+        // spots outside the world just go into the nearest edge cell.
         int CellIndex(float x, float z)
         {
             return ClampCell(z) * _cellsPerSide + ClampCell(x);

@@ -7,9 +7,9 @@ using UnityEngine.Profiling;
 
 namespace Poi.Runtime
 {
-    // Automated measurement. Starts when the editor/player is launched with -poiBenchmark
+    // runs the perf test by itself. starts when unity is launched with -poiBenchmark
     // (or RunOnStart is ticked). For each POI count: player auto-running, feed churning,
-    // camera at max height, warm-up, then measure N frames. Writes Benchmarks/results.md.
+    // camera at max height, wait a bit, then measure N frames. writes Benchmarks/results.md.
     [DefaultExecutionOrder(-1000)]
     public class BenchmarkRunner : MonoBehaviour
     {

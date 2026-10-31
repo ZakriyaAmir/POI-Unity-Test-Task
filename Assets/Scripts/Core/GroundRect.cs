@@ -2,7 +2,7 @@ using System;
 
 namespace Poi.Core
 {
-    // Axis aligned rectangle on the ground (x/z), e.g. what the camera can see.
+    // a straight (not rotated) rect on the ground (x/z), like the area the camera can see.
     public struct GroundRect
     {
         public float MinX, MinZ, MaxX, MaxZ;

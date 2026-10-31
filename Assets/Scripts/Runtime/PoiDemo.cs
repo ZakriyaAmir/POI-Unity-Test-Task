@@ -6,9 +6,9 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace Poi.Runtime
 {
-    // Composition root of the demo scene. Builds the data/logic objects, loads the marker prefab
-    // through Addressables, and runs feed -> store -> selector -> presenter every frame.
-    // Also the public runtime API (add / move / remove a POI, change filters).
+    // main script of the demo scene. it makes all the data/logic objects, loads the marker prefab
+    // with Addressables, and every frame runs feed, then store, then selector, then presenter.
+    // it's also where you add / move / remove a POI or change filters while playing.
     // runs after the player moved, so markers match this frame's camera
     [DefaultExecutionOrder(100)]
     public class PoiDemo : MonoBehaviour

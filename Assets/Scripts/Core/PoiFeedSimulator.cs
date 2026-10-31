@@ -5,7 +5,7 @@ namespace Poi.Core
     // Fake live feed. Call Tick(dt) once per frame.
     // All settings can be changed while running.
     // POIs live in plain arrays (swap-remove), so no allocations once the arrays are big enough.
-    // Moving uses a rotating window over the array, so we only touch the POIs that move this frame.
+    // moving goes through the array a chunk at a time, so we only touch the POIs that move this frame.
     public class PoiFeedSimulator : IPoiFeed
     {
         public event Action<PoiData> Added;

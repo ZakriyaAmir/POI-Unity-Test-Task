@@ -2,7 +2,7 @@ using System;
 
 namespace Poi.Core
 {
-    // Source of live POI updates. Whoever owns the data (simulator, network, etc) implements this.
+    // something that sends live POI changes. the simulator or a server feed both do this.
     public interface IPoiFeed
     {
         event Action<PoiData> Added;

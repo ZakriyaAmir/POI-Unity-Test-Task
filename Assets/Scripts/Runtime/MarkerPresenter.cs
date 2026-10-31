@@ -4,12 +4,12 @@ using Poi.Core;
 
 namespace Poi.Runtime
 {
-    // Glue between the selector (logic) and the pooled views (presentation).
-    // Each Refresh: run the selector, then diff the result against the active markers by POI id:
+    // connects the selector (what to show) with the pooled markers (what you see).
+    // every Refresh: run the selector, then compare the result with the markers already shown (by POI id):
     //  - already shown -> Apply (position / lod / label update)
     //  - new           -> take a view from the pool and Bind
     //  - not selected anymore (out of view, out of range, filtered, removed) -> Unbind and back to pool
-    // Uses only preallocated containers, so no allocations after warm-up.
+    // all lists are made once at the start, so no garbage after the first frames.
     public class MarkerPresenter
     {
         class Slot

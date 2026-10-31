@@ -9,7 +9,7 @@ namespace Poi.Runtime
         void OnIconLoaded(int token, Sprite sprite);
     }
 
-    // Async icon loading. The answer can come right away (cached) or some frames later.
+    // loads icons. the sprite can come back right away (already loaded) or a few frames later.
     public interface IIconLoader
     {
         void Request(string iconKey, IIconReceiver receiver, int token);

@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace Poi.Runtime
 {
-    // Simple stack pool of MarkerView instances. Prewarm up front so the game loop doesn't Instantiate.
-    // If the budget is raised above what was prewarmed it grows (one time cost).
+    // simple pool of markers. we make them all at the start so we don't Instantiate while playing.
+    // if the budget goes above that, it makes more (only once).
     public class MarkerPool : IMarkerPool
     {
         readonly MarkerView _prefab;

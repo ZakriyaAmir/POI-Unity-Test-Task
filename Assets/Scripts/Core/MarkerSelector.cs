@@ -13,11 +13,11 @@ namespace Poi.Core
         public MarkerLod Lod;
     }
 
-    // Picks which POIs get a marker this frame.
+    // picks which POIs get a marker this frame.
     // 1. ask the grid only for the visible rect clipped to the icon range around the player
     // 2. filter (type, min priority, range)
     // 3. keep the best N in a bounded heap (worst one on top, so it is easy to kick out)
-    // Every buffer is allocated up front, so Select does not allocate after warm-up.
+    // all lists are made at the start, so Select doesn't make garbage after the first frames.
     public class MarkerSelector
     {
         readonly PoiStore _store;
