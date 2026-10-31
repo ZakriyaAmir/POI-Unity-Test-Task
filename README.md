@@ -139,15 +139,30 @@ Extra numbers from the same run (full output in `Benchmarks/results.md`). The VM
 - Profiler capture for the 250k case: `Benchmarks/profile_250k.raw`, recorded in a separate pass after the measurement
   (also in batch mode without graphics, so no rendering markers in it).
 
+## Extras (the optional "nice to have" bits)
+
+- **Label declutter** (`LabelDeclutter`): markers come best first, so we go down the list and keep a label only if it
+  doesn't overlap one we already kept. The rest show icon only. Toggle `DeclutterLabels` on PoiDemo.
+- **Edge indicators** (`EdgeIndicatorFinder` + `EdgeIndicatorUi`): important POIs (priority >= 4) near the player but
+  off screen get a small orange square on the screen edge pointing at them. Only looks within 1 km, max 8 at once.
+- **Click for details** (`PoiPicker` + `MarkerClickDetails`): left click a marker and a panel top right shows its name,
+  id, type, priority, position and icon. No colliders, the click becomes a ground spot and we ask the grid for the
+  closest POI within a few meters. The panel updates live and closes if the POI gets removed.
+- **Mock server feed** (`FakePoiServer` + `MockSocketFeed`): a fake server sends a starting list (like a REST call) and
+  then text messages `add/move/change/remove` (like a WebSocket). Messages can come from any thread, they wait in a
+  queue and get handled on the main thread. Tick `UseMockServerFeed` on PoiDemo to use it instead of the simulator
+  (off by default).
+
 ## Tests
 
-34 EditMode tests, all passing headless:
+49 EditMode tests, all passing headless:
 - `SpatialGridTests` insert, move across cells, remove, out of world, 50k random churn checked against brute force.
 - `PoiStoreTests`, `PoiFeedSimulatorTests` feed events, grow/shrink of the count, no allocs.
 - `MarkerSelectorTests` budget, priority-then-distance order, filters, LOD, churn vs brute force, no allocs at 250k.
 - `GroundRectTests` camera footprint.
 - `MarkerViewTests` pool reuse, stale icon after recycle / after removal / after icon change ignored (fake loader with manual completion), LOD.
 - `MarkerPresenterTests` diff (no rebind), release on leaving view / removal, filters, budget under churn, no allocs.
+- `LabelDeclutterTests`, `EdgeIndicatorFinderTests`, `PoiPickerTests`, `MockSocketFeedTests` for the extras.
 
 No PlayMode tests.
 
@@ -160,5 +175,5 @@ No PlayMode tests.
 - Icons are cached per key for the session. Fine with 8 keys, with thousands of keys you'd want ref counting and release.
 - POI types are limited to 0..63 (bit mask filter).
 - `PoiFeedSimulator.SetPriority` is linear (debug only, not used per frame).
-- Not done (optional): edge indicators, declutter, click for details, REST/WebSocket feed, Jobs/Burst.
+- Not done (optional): Jobs/Burst. The other optional extras are done, see Extras above.
 - No player build tested, numbers are editor + no graphics only.
