@@ -171,6 +171,9 @@ namespace Poi.EditorTools
             var ui = sys.AddComponent<DemoUi>();
             ui.Demo = demo; ui.Player = pc; ui.Camera = tdc;
 
+            var edges = sys.AddComponent<EdgeIndicatorUi>();
+            edges.Demo = demo; edges.Cam = cam;
+
             var bench = sys.AddComponent<BenchmarkRunner>();
             bench.Demo = demo; bench.Player = pc; bench.Camera = tdc; bench.Ui = ui;
 
