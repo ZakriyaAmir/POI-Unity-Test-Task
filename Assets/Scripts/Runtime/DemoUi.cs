@@ -34,7 +34,8 @@ namespace Poi.Runtime
             _scroll = GUILayout.BeginScrollView(_scroll);
 
             DrawStats();
-            DrawFeedControls(sim);
+            if (Demo.UseMockServerFeed) DrawMockFeedInfo();
+            else DrawFeedControls(sim);
             DrawMarkerControls();
             DrawApiButtons();
 
@@ -71,6 +72,12 @@ namespace Poi.Runtime
             sim.MoveShare = GUILayout.HorizontalSlider(sim.MoveShare, 0, 0.2f);
             GUILayout.Label($"Move speed {sim.MoveSpeed:F0} m/s");
             sim.MoveSpeed = GUILayout.HorizontalSlider(sim.MoveSpeed, 0, 100);
+        }
+
+        void DrawMockFeedInfo()
+        {
+            GUILayout.Space(6);
+            GUILayout.Label($"Mock server feed on, waiting messages {Demo.MockFeed.WaitingCount}");
         }
 
         void DrawMarkerControls()

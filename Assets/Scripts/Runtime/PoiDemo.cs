@@ -32,6 +32,10 @@ namespace Poi.Runtime
         [Range(0f, 1f)] public float MoveShare = 0.05f;
         public float MoveSpeed = 10f;
 
+        [Header("Mock server feed (instead of the simulator)")]
+        public bool UseMockServerFeed = false;
+        public int MockStartCount = 1000;
+
         [Header("Markers")]
         public int Budget = 250;
         public float IconRange = 350f;   // ground distance from player
@@ -40,6 +44,8 @@ namespace Poi.Runtime
 
         public PoiStore Store { get; private set; }
         public PoiFeedSimulator Simulator { get; private set; }
+        public MockSocketFeed MockFeed { get; private set; }
+        public FakePoiServer MockServer { get; private set; }
         public MarkerSelector Selector { get; private set; }
         public MarkerPresenter Presenter { get; private set; }
         public LabelDeclutter Declutter { get; private set; }
@@ -81,7 +87,18 @@ namespace Poi.Runtime
                 MoveShare = MoveShare,
                 MoveSpeed = MoveSpeed
             };
-            Store.Attach(Simulator);
+
+            if (UseMockServerFeed) ConnectMockServer();
+            else Store.Attach(Simulator);
+        }
+
+        // the store listens to the fake server instead of the simulator
+        void ConnectMockServer()
+        {
+            MockFeed = new MockSocketFeed();
+            MockServer = new FakePoiServer(MockFeed) { StartCount = MockStartCount, WorldMin = WorldMin, WorldSize = WorldSize };
+            Store.Attach(MockFeed);
+            MockServer.SendStartingList();
         }
 
         // the pool and presenter are made once the prefab is loaded, until then Ready is false
@@ -110,7 +127,15 @@ namespace Poi.Runtime
             long alloc0 = GC.GetAllocatedBytesForCurrentThread();
 
             _sw.Restart();
-            Simulator.Tick(Time.deltaTime);
+            if (UseMockServerFeed)
+            {
+                MockServer.Tick(Time.deltaTime);
+                MockFeed.ProcessMessages();
+            }
+            else
+            {
+                Simulator.Tick(Time.deltaTime);
+            }
             LastFeedMs = _sw.Elapsed.TotalMilliseconds;
 
             if (Presenter != null)
